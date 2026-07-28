@@ -1,15 +1,34 @@
 # Karatin Government Solutions Website
 
-Federal Professional website for GitHub Pages.
+## Clean folder structure
+
+- index.html
+- about.html
+- services.html
+- capabilities.html
+- documents.html
+- contact.html
+- css/style.css
+- js/main.js
+- images/
+- documents/
 
 ## Before publishing
-Replace the placeholders for legal name, email, phone, location, UEI, CAGE, NAICS, certifications, and the Formspree endpoint.
 
-## Documents
-Add these PDFs to the documents folder:
-- capability-statement.pdf
-- capability-briefing.pdf
-- introduction-letter.pdf
+Replace:
+- legal company name
+- business email
+- phone number
+- city and state
+- UEI
+- CAGE
+- NAICS codes
+- certifications
 
-## Upload
-Upload all files and folders to the root of your GitHub repository and commit the changes. Keep GitHub Pages disabled until you finish reviewing the site.
+## Important
+
+Delete the old duplicate files before uploading this package:
+- styles.css
+- script.js
+- Web Structure
+- old CSS folder, if it does not contain `style.css`
