@@ -1,4 +1,4 @@
-# Karatin Government Solutions — Website Version 5
+# Karatin Government Solutions — Website Version 6 — Documents Edition
 
 ## Included
 - Executive federal hero artwork
@@ -53,3 +53,20 @@
 - Included Preparing Microsoft 365 for AI article
 - Added homepage Resources preview
 - Added footer links for Resources categories
+
+## Version 6
+- Searchable Knowledge Center
+- Search button and live keyword filtering
+- Category filters
+- 22 complete resource articles
+- Reading time, category, update date, related articles, and contact CTA
+- Homepage Knowledge Center preview
+
+## Documents Edition
+- Dedicated Documents navigation item
+- Documents Center
+- Capability Statement
+- Capability Briefing
+- Introduction Letter
+- Homepage official-documents section
+- Footer links to flagship documents
