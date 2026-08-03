@@ -1,4 +1,4 @@
-# Karatin Government Solutions — Website Version 7 — Photography & Data Security Edition
+# Karatin Government Solutions — Website Version 7.1 — Stable Photography Upgrade
 
 ## Included
 - Executive federal hero artwork
@@ -71,12 +71,12 @@
 - Homepage official-documents section
 - Footer links to flagship documents
 
-## Version 7
-- Approved photography-led homepage design
-- Federal Capitol hero photography
-- Photo-based official document cards
-- Collaboration, Federal Focus, Data Security, AI Readiness, and Compliance imagery
-- Expanded Data Security signature section
-- Search button retained in the top navigation
-- Full searchable Knowledge Center retained with 22 articles
-- Photography added without external image dependencies
+## Version 7.1
+- Fresh top-level index.html restored
+- Built from V6 Documents Edition stable foundation
+- Search function and resources-search.js preserved
+- All 22 Knowledge Center articles preserved
+- Federal hero photography
+- Official document photography
+- Data Security signature section
+- AI Readiness, Compliance, Collaboration, and Federal Focus imagery
