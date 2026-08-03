@@ -1,4 +1,4 @@
-# Karatin Government Solutions — Website Version 4.2
+# Karatin Government Solutions — Website Version 5
 
 ## Included
 - Executive federal hero artwork
@@ -46,3 +46,10 @@
 - 16×16 and 32×32 PNG favicon files
 - Apple touch icon
 - Updated favicon markup across every page
+
+## Version 5
+- Resources remains the main navigation label
+- Expanded Resources hub with three sections
+- Included Preparing Microsoft 365 for AI article
+- Added homepage Resources preview
+- Added footer links for Resources categories
