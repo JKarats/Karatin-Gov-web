@@ -1,4 +1,4 @@
-# Karatin Government Solutions — Website Version 4.1
+# Karatin Government Solutions — Website Version 4.2
 
 ## Included
 - Executive federal hero artwork
@@ -39,3 +39,10 @@
 - Interactive AI-readiness checklist
 - Official Microsoft reference links
 - Updated Resources page with featured guide
+
+## Version 4.2 update
+- New professional navy-and-gold shield favicon
+- Multi-resolution ICO file
+- 16×16 and 32×32 PNG favicon files
+- Apple touch icon
+- Updated favicon markup across every page
