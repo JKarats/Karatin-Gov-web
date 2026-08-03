@@ -1,82 +1,18 @@
-# Karatin Government Solutions — Website Version 7.1 — Stable Photography Upgrade
+# Karatin Government Solutions — Website V8 Clean
 
-## Included
-- Executive federal hero artwork
-- Larger Karatin logo placement
-- Premium navigation and footer
-- Animated capability cards
-- Animated experience counter
-- Solutions page
-- Executive capability statement page
-- Team With Us page
-- Resources page
-- Contact page
-- Executive download center
-- Responsive mobile, tablet, and desktop layouts
-- Smooth reveal animations and hover effects
+## Clean structure
+- HTML pages are in the repository root.
+- Styles are in `css/style.css`.
+- JavaScript is in `js/main.js` and `js/resources-search.js`.
+- Images and favicons are in `images/`.
+- Downloadable PDFs belong in `documents/`.
 
-## Upload to GitHub
-1. Download and unzip this package.
+## Upload
+1. Unzip this package.
 2. Open the extracted folder.
-3. Select everything inside the folder.
-4. In GitHub, choose Add file → Upload files.
-5. Drag all selected files and folders into the repository.
-6. Allow GitHub to replace existing files.
-7. Commit the changes.
-8. Wait 1–2 minutes and refresh the live site with Ctrl+Shift+R.
+3. Select everything inside it.
+4. Upload those contents to the GitHub repository root.
+5. Replace existing files and commit.
+6. Wait 1–2 minutes and refresh with Ctrl+Shift+R.
 
-## Replace before formal launch
-- Business email
-- Phone number
-- City/state
-- UEI
-- CAGE
-- NAICS selections
-- Certifications
-
-## Version 4.1 addition
-- Full article: Preparing Microsoft 365 for AI
-- Interactive AI-readiness checklist
-- Official Microsoft reference links
-- Updated Resources page with featured guide
-
-## Version 4.2 update
-- New professional navy-and-gold shield favicon
-- Multi-resolution ICO file
-- 16×16 and 32×32 PNG favicon files
-- Apple touch icon
-- Updated favicon markup across every page
-
-## Version 5
-- Resources remains the main navigation label
-- Expanded Resources hub with three sections
-- Included Preparing Microsoft 365 for AI article
-- Added homepage Resources preview
-- Added footer links for Resources categories
-
-## Version 6
-- Searchable Knowledge Center
-- Search button and live keyword filtering
-- Category filters
-- 22 complete resource articles
-- Reading time, category, update date, related articles, and contact CTA
-- Homepage Knowledge Center preview
-
-## Documents Edition
-- Dedicated Documents navigation item
-- Documents Center
-- Capability Statement
-- Capability Briefing
-- Introduction Letter
-- Homepage official-documents section
-- Footer links to flagship documents
-
-## Version 7.1
-- Fresh top-level index.html restored
-- Built from V6 Documents Edition stable foundation
-- Search function and resources-search.js preserved
-- All 22 Knowledge Center articles preserved
-- Federal hero photography
-- Official document photography
-- Data Security signature section
-- AI Readiness, Compliance, Collaboration, and Federal Focus imagery
+After V8 is live, delete duplicate root-level assets such as `style.css`, `main.js`, `karatin-logo.png`, `hero-capitol.jpg`, `doc-*.jpg`, and `solution-*.jpg`. Correct copies are inside their folders.
