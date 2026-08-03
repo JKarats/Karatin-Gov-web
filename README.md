@@ -1,4 +1,4 @@
-# Karatin Government Solutions — Website Version 4
+# Karatin Government Solutions — Website Version 4.1
 
 ## Included
 - Executive federal hero artwork
@@ -33,3 +33,9 @@
 - CAGE
 - NAICS selections
 - Certifications
+
+## Version 4.1 addition
+- Full article: Preparing Microsoft 365 for AI
+- Interactive AI-readiness checklist
+- Official Microsoft reference links
+- Updated Resources page with featured guide

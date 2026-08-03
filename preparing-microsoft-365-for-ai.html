@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="A practical Microsoft 365 AI readiness framework covering permissions, oversharing, sensitivity labels, retention, DLP, auditing, and Microsoft Purview.">
+  <meta name="theme-color" content="#061528">
+  <title>Preparing Microsoft 365 for AI | Karatin Government Solutions</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Karatin Government Solutions home">
+      <img src="images/karatin-logo.png" alt="Karatin LLC logo">
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="capability-statement.html">Capability Statement</a>
+      <a href="teaming.html">Team With Us</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero article-hero">
+    <div class="container reveal">
+      <p class="eyebrow light">Microsoft 365 AI Readiness</p>
+      <h1>Preparing Microsoft 365 for AI</h1>
+      <p>A practical framework for reducing oversharing, protecting sensitive information, and establishing a governed foundation before deploying Microsoft 365 Copilot and other AI tools.</p>
+      <div class="article-meta">
+        <span>Karatin Government Solutions</span>
+        <span>8-minute read</span>
+        <span>Updated August 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section article-section">
+    <div class="container article-layout">
+      <aside class="article-toc reveal">
+        <strong>In this guide</strong>
+        <a href="#why-readiness">Why readiness matters</a>
+        <a href="#permissions">1. Review permissions</a>
+        <a href="#data">2. Find sensitive data</a>
+        <a href="#labels">3. Apply labels</a>
+        <a href="#retention">4. Fix retention</a>
+        <a href="#dlp">5. Strengthen DLP</a>
+        <a href="#audit">6. Prepare auditing</a>
+        <a href="#pilot">7. Pilot safely</a>
+        <a href="#checklist">Readiness checklist</a>
+      </aside>
+
+      <article class="article-content reveal">
+        <p class="article-intro">AI does not create a new permission model inside Microsoft 365. It works with the access users already have. That is why existing oversharing, weak site governance, inconsistent labeling, and excessive access can become more visible when users begin asking AI to locate and summarize information.</p>
+
+        <section id="why-readiness">
+          <h2>Why AI readiness matters</h2>
+          <p>Microsoft 365 Copilot respects existing identity, permissions, sensitivity labels, retention policies, and administrative controls. That is an important protection—but it also means that poorly governed information may still be surfaced to users who already have access to it.</p>
+          <p>The goal is not to delay AI indefinitely. The goal is to establish enough control and visibility that AI can be introduced with confidence.</p>
+          <div class="callout">
+            <strong>Key principle</strong>
+            <p>Copilot can make existing access problems easier to discover. Fix the underlying access and governance issues rather than treating AI as the original cause.</p>
+          </div>
+        </section>
+
+        <section id="permissions">
+          <h2>1. Review SharePoint, Teams, and OneDrive permissions</h2>
+          <p>Begin by identifying sites, teams, libraries, and folders where access is broader than the business requirement. Pay particular attention to:</p>
+          <ul>
+            <li>Organization-wide or “everyone” access.</li>
+            <li>Old sharing links that remain active.</li>
+            <li>Guest accounts and external collaborators.</li>
+            <li>Inactive sites with active permissions.</li>
+            <li>Teams and Microsoft 365 groups with unclear ownership.</li>
+            <li>Nested groups that make effective access difficult to understand.</li>
+          </ul>
+          <p>Create a prioritized remediation list. High-risk repositories should be corrected first, especially those containing personnel, legal, financial, acquisition, health, security, or regulated information.</p>
+        </section>
+
+        <section id="data">
+          <h2>2. Discover where sensitive information resides</h2>
+          <p>Use Microsoft Purview capabilities to identify sensitive information, unprotected assets, and potentially risky user activity. A useful assessment should answer:</p>
+          <ul>
+            <li>Which sensitive information types are present?</li>
+            <li>Where is sensitive information stored?</li>
+            <li>Which files are unlabeled or insufficiently protected?</li>
+            <li>Which users or departments create the greatest exposure?</li>
+            <li>Which repositories combine sensitive data with broad access?</li>
+          </ul>
+          <p>Data Security Posture Management can help centralize visibility into sensitive-data risk and support guided remediation across traditional applications and AI use cases.</p>
+        </section>
+
+        <section id="labels">
+          <h2>3. Establish a usable sensitivity-label strategy</h2>
+          <p>Sensitivity labels can classify and protect content while supporting normal collaboration. Keep the label structure understandable. A complex label taxonomy that users cannot interpret will not produce reliable outcomes.</p>
+          <p>A practical starting hierarchy might include:</p>
+          <div class="label-grid">
+            <span>Public</span>
+            <span>Internal</span>
+            <span>Confidential</span>
+            <span>Highly Confidential</span>
+          </div>
+          <p>Define what each label means, who can access labeled information, whether encryption is required, and whether automatic or recommended labeling is appropriate. Test labels across Office applications, SharePoint, Teams, and external-sharing scenarios before broad deployment.</p>
+        </section>
+
+        <section id="retention">
+          <h2>4. Correct retention and stale-data problems</h2>
+          <p>AI readiness is not only about protecting current data. It is also about reducing unnecessary data. Review:</p>
+          <ul>
+            <li>Retention policies and retention labels.</li>
+            <li>Duplicate, obsolete, and trivial content.</li>
+            <li>Inactive Teams and SharePoint sites.</li>
+            <li>Records that must be preserved.</li>
+            <li>Content that has exceeded its approved business life.</li>
+          </ul>
+          <p>Removing unnecessary information reduces the amount of low-value or outdated content that AI can retrieve and simplifies future governance.</p>
+        </section>
+
+        <section id="dlp">
+          <h2>5. Strengthen Data Loss Prevention controls</h2>
+          <p>Review whether existing DLP policies address the information and user behaviors that matter most. Policies should be designed around real business risk rather than simply enabling every available template.</p>
+          <p>Evaluate controls for sensitive information in Exchange, Teams, SharePoint, OneDrive, endpoints, and supported AI interactions. Begin with monitoring and policy tips where appropriate, validate false positives, and then move toward stronger restrictions for high-confidence scenarios.</p>
+        </section>
+
+        <section id="audit">
+          <h2>6. Prepare auditing, investigation, and accountability</h2>
+          <p>Before deployment, decide how AI activity will be reviewed and who owns investigations. Confirm that the appropriate teams understand:</p>
+          <ul>
+            <li>Where Copilot and AI interaction records are available.</li>
+            <li>How audit searches will be performed.</li>
+            <li>How legal, privacy, compliance, and security teams will coordinate.</li>
+            <li>When an AI-related event becomes an incident.</li>
+            <li>How policy violations will be documented and remediated.</li>
+          </ul>
+          <p>Use least-privilege roles when granting access to Microsoft Purview and related security-management capabilities.</p>
+        </section>
+
+        <section id="pilot">
+          <h2>7. Run a controlled pilot before broad deployment</h2>
+          <p>Select a limited user group with clear business scenarios. Include representatives from security, compliance, legal, privacy, records, IT, and the participating business units.</p>
+          <p>During the pilot, measure:</p>
+          <ul>
+            <li>Useful productivity outcomes.</li>
+            <li>Unexpected data exposure or oversharing.</li>
+            <li>Labeling and DLP effectiveness.</li>
+            <li>User understanding of acceptable use.</li>
+            <li>Support requests and training gaps.</li>
+          </ul>
+          <p>Use the pilot findings to update controls, training, and deployment criteria before expanding access.</p>
+        </section>
+
+        <section id="checklist">
+          <h2>Microsoft 365 AI readiness checklist</h2>
+          <div class="checklist-card">
+            <label><input type="checkbox"> High-risk SharePoint and Teams permissions reviewed</label>
+            <label><input type="checkbox"> External sharing and guest access reviewed</label>
+            <label><input type="checkbox"> Sensitive-data locations identified</label>
+            <label><input type="checkbox"> Sensitivity labels defined and tested</label>
+            <label><input type="checkbox"> Retention and stale content reviewed</label>
+            <label><input type="checkbox"> DLP policies validated</label>
+            <label><input type="checkbox"> Audit and investigation ownership assigned</label>
+            <label><input type="checkbox"> AI acceptable-use guidance created</label>
+            <label><input type="checkbox"> Controlled pilot completed</label>
+            <label><input type="checkbox"> Deployment risks and exceptions documented</label>
+          </div>
+        </section>
+
+        <section>
+          <h2>How Karatin can support the assessment</h2>
+          <p>Karatin Government Solutions can help organizations evaluate Microsoft 365 permissions, sensitive-data exposure, Purview configuration, retention, DLP, labeling, and AI-readiness gaps. The outcome can be structured as a prioritized remediation roadmap rather than a generic security report.</p>
+          <a class="btn btn-primary" href="contact.html">Discuss an AI Readiness Assessment</a>
+        </section>
+
+        <section class="references">
+          <h2>Official Microsoft references</h2>
+          <ul>
+            <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/secure-govern-copilot-foundational-deployment-guidance" target="_blank" rel="noopener">Secure and govern Microsoft 365 Copilot: foundational deployment guidance</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/security-microsoft-365-copilot" target="_blank" rel="noopener">Security for Microsoft 365 Copilot</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/purview/data-security-posture-management-learn-about" target="_blank" rel="noopener">Microsoft Purview Data Security Posture Management</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/purview/sensitivity-labels" target="_blank" rel="noopener">Microsoft Purview sensitivity labels</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture-data-protection-auditing" target="_blank" rel="noopener">Microsoft 365 Copilot data-protection architecture</a></li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="images/karatin-logo.png" alt="Karatin LLC logo">
+      <p>Reliable solutions. Mission-focused service.</p>
+    </div>
+    <div>
+      <h3>Company</h3>
+      <a href="solutions.html">Solutions</a>
+      <a href="capability-statement.html">Capability Statement</a>
+      <a href="teaming.html">Team With Us</a>
+    </div>
+    <div>
+      <h3>Government Information</h3>
+      <p>UEI: Pending</p>
+      <p>CAGE: Pending</p>
+      <p>Nationwide Support</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <a href="mailto:contact@yourcompany.com">contact@yourcompany.com</a>
+      <p>(000) 000-0000</p>
+      <p>City, State</p>
+    </div>
+  </div>
+  <div class="container copyright">© <span id="year"></span> Karatin LLC. All rights reserved.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
