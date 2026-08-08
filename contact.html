@@ -48,16 +48,32 @@
       <h2>Karatin LLC</h2>
       <p><strong>Email:</strong> info@KaratinLLC.com</p>
       <p><strong>Phone:</strong> (469) 269-0784</p>
-      <p><strong>Location:</strong>Frisco, TX</p>
+      <p><strong>Location:</strong> Frisco, TX</p>
       <p><strong>Service Area:</strong> Nationwide</p>
     </div>
-    <form class="contact-form">
-      <label>Name<input type="text" name="name"></label>
-      <label>Email<input type="email" name="email"></label>
-      <label>Organization<input type="text" name="organization"></label>
-      <label>Message<textarea name="message" rows="6"></textarea></label>
-      <button type="button" class="btn btn-primary">Form Connection Pending</button>
-      <small>Connect this form after choosing a business email or form service.</small>
+    <form class="contact-form" id="karatin-contact-form">
+      <input type="hidden" name="access_key" value="81ac82fe-729c-4ebf-9e9c-d549cce77875">
+      <input type="hidden" name="subject" value="New Website Inquiry - Karatin LLC">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+      <label>Name
+        <input type="text" name="name" autocomplete="name" required>
+      </label>
+
+      <label>Email
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+
+      <label>Organization
+        <input type="text" name="organization" autocomplete="organization">
+      </label>
+
+      <label>Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <button type="submit" class="btn btn-primary" id="contact-submit">Send Message</button>
+      <p id="contact-status" role="status" aria-live="polite" style="margin-top:12px;"></p>
     </form>
   </div>
 </section>
@@ -94,6 +110,48 @@
   </div>
   <div class="container copyright">© <span id="year"></span> Karatin LLC. All rights reserved.</div>
 </footer>
+
+<script>
+(function () {
+  const form = document.getElementById("karatin-contact-form");
+  const status = document.getElementById("contact-status");
+  const button = document.getElementById("contact-submit");
+
+  if (!form) return;
+
+  form.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    status.textContent = "Sending your message...";
+    button.disabled = true;
+    button.textContent = "Sending...";
+
+    try {
+      const formData = new FormData(form);
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        status.textContent = "Thank you. Your message has been sent to Karatin LLC.";
+        form.reset();
+      } else {
+        status.textContent = "Your message could not be sent. Please email info@KaratinLLC.com.";
+      }
+    } catch (error) {
+      status.textContent = "Your message could not be sent. Please email info@KaratinLLC.com.";
+    } finally {
+      button.disabled = false;
+      button.textContent = "Send Message";
+    }
+  });
+})();
+</script>
+
 <script src="js/main.js"></script>
 </body>
 </html>
