@@ -1,15 +1,13 @@
-WEB3FORMS CONTACT FORM UPDATE
+BOOK A CONSULTATION UPDATE
 
-Upload ONLY contact.html to the root of the Karatin-Gov-web GitHub repository.
-Replace the existing contact.html and commit the change.
+Microsoft Bookings URL:
+https://bookings.cloud.microsoft/book/SharedBooking@KaratinLLC.com/?ismsaljsauthenabled
 
-The form now:
-- sends submissions through Web3Forms
-- sends to the email associated with your Web3Forms access key
-- uses the visitor's email as the reply-to address
-- includes Name, Email, Organization, and Message
-- includes Web3Forms botcheck spam protection
-- keeps the visitor on the Karatin website
-- displays a success or error message after submission
+Added across the site:
+- Book a Consultation in the top navigation
+- Book a Consultation button in the homepage hero
+- Consultation section in the footer
 
-After GitHub Pages updates, submit one test message from your live Contact page.
+Upload all HTML files directly to the GitHub repository root.
+Replace existing files and commit.
+No folders, CSS, JavaScript, or images need to be uploaded.
