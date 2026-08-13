@@ -1,11 +1,12 @@
-INTRODUCTION LETTER WEBSITE UPDATE
+CAPABILITY BRIEFING WEBSITE UPDATE
 
-Files to upload to the GitHub repository root:
-- introduction-letter.html
+Upload these three files directly to the GitHub repository root:
+- capability-briefing.html
 - documents.html
-- index.html
-- Karatin_LLC_Introduction_Letter.pdf
+- Karatin_Capability_Briefing.pptx
 
-The attached Introduction Letter is now the official website PDF.
-The Government Documents page now has a working View PDF button,
-and the Introduction Letter page matches the attached letter and includes View/Download PDF buttons.
+What changed:
+- Attached PowerPoint is now the official Capability Briefing download.
+- Government Documents now includes a Download PowerPoint button.
+- Online Capability Briefing page now reflects the attached presentation.
+- Existing Introduction Letter download remains intact.
