@@ -1,7 +1,11 @@
-UEI UPDATE
+INTRODUCTION LETTER WEBSITE UPDATE
 
-UEI: EJGLFLLKUKK8
+Files to upload to the GitHub repository root:
+- introduction-letter.html
+- documents.html
+- index.html
+- Karatin_LLC_Introduction_Letter.pdf
 
-Upload all HTML files in this package directly to the GitHub repository root.
-Allow GitHub to replace the existing HTML files, then commit the changes.
-No CSS, JavaScript, image, or folder uploads are required.
+The attached Introduction Letter is now the official website PDF.
+The Government Documents page now has a working View PDF button,
+and the Introduction Letter page matches the attached letter and includes View/Download PDF buttons.
