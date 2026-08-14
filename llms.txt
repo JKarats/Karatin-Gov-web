@@ -1,0 +1,18 @@
+# Karatin LLC
+
+> Karatin LLC helps organizations secure sensitive data, strengthen compliance, prepare Microsoft 365 environments for responsible AI adoption, and deliver role-based training.
+
+Website: https://karatinllc.com/
+Location: Frisco, TX
+Email: info@KaratinLLC.com
+Phone: (469) 269-0784
+UEI: EJGLFLLKUKK8
+LinkedIn: https://www.linkedin.com/company/karatin-llc/
+
+## Core Services
+- Data Security and Compliance
+- Microsoft 365 Security and Information Governance
+- Responsible AI Adoption and AI Readiness
+- Data Classification and Information Protection
+- Training and Enablement
+- Government Contracting and Teaming Support
