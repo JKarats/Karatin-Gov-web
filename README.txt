@@ -1,13 +1,28 @@
-CAPABILITY STATEMENT WEBSITE UPDATE
+KARATIN WEBSITE — LATEST CONTRACTING DATA UPDATE
 
-Upload these four files directly to the GitHub repository root:
-- capability-statement.html
-- documents.html
-- index.html
-- Karatin_LLC_Capability_Statement.pdf
+Website contracting information now uses:
 
-Allow GitHub to replace the existing files and commit.
+NAICS:
+541519 | 541512 | 541611 | 611420 | 561320 | 611430
 
-The attached PDF is now the official Capability Statement.
-The online page now matches its Data Security, Compliance, Responsible AI,
-Training, and Specialized Staffing positioning.
+UEI:
+EJGLFLLKUKK8
+
+CAGE:
+23FF5
+
+Changes completed:
+- Added 541611
+- Added 611430
+- Kept 541519, 541512, 611420, 561320
+- Removed 334111
+- Removed 541513
+- Removed outdated CAGE Pending / Available upon request language
+- Removed outdated placeholder language from capability-statement.html
+- Updated the official Capability Statement PDF used by the website
+
+UPLOAD:
+Upload every file in this folder directly to the ROOT of the GitHub repository.
+Allow existing files to be replaced, then commit.
+
+No CSS, JS, or image folders are required for this update.
