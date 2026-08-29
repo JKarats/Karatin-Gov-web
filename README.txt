@@ -1,28 +1,17 @@
-KARATIN WEBSITE — LATEST CONTRACTING DATA UPDATE
+NEW INTRODUCTION LETTER WEBSITE UPDATE
 
-Website contracting information now uses:
+Upload these four files directly to the GitHub repository root:
 
-NAICS:
-541519 | 541512 | 541611 | 611420 | 561320 | 611430
+- introduction-letter.html
+- documents.html
+- index.html
+- Karatin_LLC_Introduction_Letter.pdf
 
-UEI:
-EJGLFLLKUKK8
+Allow GitHub to replace the existing files, then commit.
 
-CAGE:
-23FF5
+The attached Introduction Letter is now the official website version.
+The online Introduction Letter page now matches the updated positioning:
+Data Security, Compliance Readiness, Responsible AI, Training, and Specialized Staffing.
 
-Changes completed:
-- Added 541611
-- Added 611430
-- Kept 541519, 541512, 611420, 561320
-- Removed 334111
-- Removed 541513
-- Removed outdated CAGE Pending / Available upon request language
-- Removed outdated placeholder language from capability-statement.html
-- Updated the official Capability Statement PDF used by the website
-
-UPLOAD:
-Upload every file in this folder directly to the ROOT of the GitHub repository.
-Allow existing files to be replaced, then commit.
-
-No CSS, JS, or image folders are required for this update.
+UEI: EJGLFLLKUKK8
+CAGE: 23FF5
