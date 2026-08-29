@@ -1,17 +1,13 @@
-KARATIN SEO + AEO UPDATE
-Generated: 2026-08-14
+CAPABILITY STATEMENT WEBSITE UPDATE
 
-Upload ALL files in this package directly to the GitHub repository root.
-Allow the HTML files to replace existing versions.
+Upload these four files directly to the GitHub repository root:
+- capability-statement.html
+- documents.html
+- index.html
+- Karatin_LLC_Capability_Statement.pdf
 
-NEW FILES: sitemap.xml, robots.txt, llms.txt
+Allow GitHub to replace the existing files and commit.
 
-SEO: unique titles/descriptions, canonical URLs, robots directives, Open Graph/Twitter metadata, Organization/WebSite/Service/Article JSON-LD, XML sitemap.
-AEO: concise answer-first homepage FAQ, structured organization/service/article entities, machine-readable company details, optional llms.txt.
-
-AFTER UPLOAD:
-1. Verify https://karatinllc.com/sitemap.xml
-2. Verify https://karatinllc.com/robots.txt
-3. Submit sitemap.xml in Google Search Console
-4. Request indexing for Home, Solutions, Government Documents, Resources and Contact
-5. Test structured data with Google Rich Results Test
+The attached PDF is now the official Capability Statement.
+The online page now matches its Data Security, Compliance, Responsible AI,
+Training, and Specialized Staffing positioning.
