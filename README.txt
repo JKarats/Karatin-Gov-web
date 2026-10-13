@@ -1,21 +1,30 @@
-SOLUTIONS + RESOURCES MERGE
+KARATIN AGREED HOMEPAGE REDESIGN
 
-WHAT CHANGED
-- Navigation now uses one tab: Solutions & Resources
-- Separate Resources tab removed
-- Search now opens the Resources section on the combined page
-- solutions.html now contains:
-  1. Training
-  2. Staffing
-  3. Secure AI Adoption
-  4. Data Protection
-  5. Data Privacy & Compliance Readiness
-  followed by the existing Resources/search content
-- resources.html redirects visitors to the Resources section of solutions.html
-- Government Documents, Team With Us, Contact, Book a Consultation, and the rest of the site remain intact
+Upload ONLY:
+- index.html
 
-UPLOAD
-Upload ALL .html files in this package directly to the GitHub repository root.
-Allow GitHub to replace the existing HTML files and commit.
+to the ROOT of the GitHub repository and replace the current index.html.
 
-No CSS, JavaScript, images, PDFs, or folders need to be uploaded for this change.
+This homepage now matches the agreed direction:
+- keeps the current navigation
+- Capitol Building hero
+- broader Federal + SLED + Education + Commercial positioning
+- five capability cards:
+  Training
+  Staffing
+  Secure AI Adoption
+  Data Protection
+  Data Privacy & Compliance Readiness
+- preserves Government Documents and Book a Consultation buttons
+- uses ROOT-LEVEL image paths to avoid the broken images-folder problem
+
+The page expects these image files already in the GitHub repository root:
+- hero-capitol.jpg
+- solution-collaboration.jpg
+- solution-federal.jpg
+- solution-ai-readiness.jpg
+- solution-data-security.jpg
+- solution-compliance.jpg
+- karatin-logo.png
+
+If an individual card image is unavailable, its card will still display cleanly without a broken-image icon.
