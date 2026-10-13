@@ -1,30 +1,11 @@
-KARATIN AGREED HOMEPAGE REDESIGN
+CLEAN HERO FIX
 
-Upload ONLY:
-- index.html
+Upload BOTH files directly to the GitHub repository root:
 
-to the ROOT of the GitHub repository and replace the current index.html.
+1. index.html
+2. hero-capitol-clean.jpg
 
-This homepage now matches the agreed direction:
-- keeps the current navigation
-- Capitol Building hero
-- broader Federal + SLED + Education + Commercial positioning
-- five capability cards:
-  Training
-  Staffing
-  Secure AI Adoption
-  Data Protection
-  Data Privacy & Compliance Readiness
-- preserves Government Documents and Book a Consultation buttons
-- uses ROOT-LEVEL image paths to avoid the broken images-folder problem
+Replace index.html if prompted.
+hero-capitol-clean.jpg is a new clean image and will not overwrite the old hero-capitol.jpg.
 
-The page expects these image files already in the GitHub repository root:
-- hero-capitol.jpg
-- solution-collaboration.jpg
-- solution-federal.jpg
-- solution-ai-readiness.jpg
-- solution-data-security.jpg
-- solution-compliance.jpg
-- karatin-logo.png
-
-If an individual card image is unavailable, its card will still display cleanly without a broken-image icon.
+This fixes the ghosted old text because the homepage no longer uses the old hero-capitol.jpg.
