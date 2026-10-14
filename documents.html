@@ -72,6 +72,46 @@
 </script>
 <!-- KARATIN SEO-AEO END -->
 
+
+<style id="karatin-document-images-restored">
+.document-hub-card{
+  overflow:hidden;
+  padding-top:0 !important;
+  position:relative;
+}
+.document-card-image{
+  height:180px;
+  margin:0 -1px 18px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  border-bottom:1px solid #dfe5ec;
+}
+.document-hub-card .document-type,
+.document-hub-card h3,
+.document-hub-card p,
+.document-hub-card .document-actions{
+  margin-left:32px;
+  margin-right:32px;
+}
+.document-hub-card .document-actions{
+  margin-bottom:32px;
+}
+@media(max-width:900px){
+  .document-card-image{height:165px;}
+}
+@media(max-width:620px){
+  .document-card-image{height:190px;}
+  .document-hub-card .document-type,
+  .document-hub-card h3,
+  .document-hub-card p,
+  .document-hub-card .document-actions{
+    margin-left:22px;
+    margin-right:22px;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="site-header">
@@ -109,6 +149,7 @@
 
     <div class="document-hub-grid">
       <article class="document-hub-card reveal">
+        <div class="document-card-image" style="background-image:url('doc-capability.jpg')" role="img" aria-label="Capability Statement"></div>
         <div class="document-type">01</div>
         <h3>Capability Statement</h3>
         <p>One-page overview of core competencies, differentiators, NAICS codes, company data, and contact information.</p>
@@ -119,6 +160,7 @@
       </article>
 
       <article class="document-hub-card reveal">
+        <div class="document-card-image" style="background-image:url('doc-briefing.jpg')" role="img" aria-label="Capability Briefing"></div>
         <div class="document-type">02</div>
         <h3>Capability Briefing</h3>
         <p>Executive-style briefing for agencies, small-business offices, program managers, and teaming partners.</p>
@@ -129,6 +171,7 @@
       </article>
 
       <article class="document-hub-card reveal">
+        <div class="document-card-image" style="background-image:url('doc-letter.jpg')" role="img" aria-label="Introduction Letter"></div>
         <div class="document-type">03</div>
         <h3>Introduction Letter</h3>
         <p>Professional introduction for contracting officers, OSDBU representatives, and prime-contractor outreach.</p>
