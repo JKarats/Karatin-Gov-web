@@ -1,13 +1,9 @@
-LATEST CAPABILITY STATEMENT UPDATE
+RESTORE CAPABILITY STATEMENT CARD IMAGE
 
-Upload these FOUR files directly to the GitHub repository root:
+Upload ONLY:
+doc-capability.jpg
 
-- Karatin_LLC_Capability_Statement.pdf
-- capability-statement.html
-- documents.html
-- doc-capability.jpg
+to the GitHub repository root and replace the current doc-capability.jpg.
 
-Allow GitHub to replace the existing versions and commit.
-
-The newly attached Capability Statement is now the official website version.
-The card preview image was also refreshed so Government Documents shows the new statement.
+Do NOT replace the new Capability Statement PDF.
+This change restores only the professional card preview image.
