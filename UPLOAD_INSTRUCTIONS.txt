@@ -1,0 +1,20 @@
+KARATIN LLC — STAFFING-FIRST V4 / SIMPLE HEADER
+
+TOP NAVIGATION ON EVERY PAGE:
+Home | Staffing | Government | Request Talent | Contact
+
+Removed from the top: Government Documents, Team With Us, Search, Book a Consultation.
+
+Government Documents are accessible within the Government page and still work at documents.html.
+Request Talent opens request-talent.html with a working-form integration using the same Web3Forms account as Contact.
+Book a Consultation is still accessible in page content and the footer.
+
+DEPLOY TO GITHUB PAGES:
+1. Extract this ZIP.
+2. In the repository main/root directory, choose Add file -> Upload files.
+3. Drag all HTML and JPG files at the ROOT (not the containing folder) and commit.
+4. Replace existing files when prompted. Older image names need not be deleted; the V3 homepage references the new V3 photos.
+5. Check the Home, Government, Request Talent, and Contact links at karatinllc.com.
+
+This package does not include replacement PDFs, site CSS, JS, or document downloads, so those remain unchanged.
+The Request Talent submission uses existing Web3Forms configuration; confirm delivery with a test form submission after publishing.
