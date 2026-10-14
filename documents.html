@@ -73,6 +73,7 @@
 <!-- KARATIN SEO-AEO END -->
 
 
+
 <style id="karatin-document-images-restored">
 .document-hub-card{
   overflow:hidden;
@@ -80,11 +81,12 @@
   position:relative;
 }
 .document-card-image{
-  height:180px;
+  height:215px;
   margin:0 -1px 18px;
-  background-size:cover;
-  background-position:center;
+  background-size:contain;
+  background-position:center top;
   background-repeat:no-repeat;
+  background-color:#fff;
   border-bottom:1px solid #dfe5ec;
 }
 .document-hub-card .document-type,
@@ -97,11 +99,26 @@
 .document-hub-card .document-actions{
   margin-bottom:32px;
 }
+@media(max-width:1100px){
+  .document-card-image{
+    height:200px;
+    background-size:contain;
+    background-position:center top;
+  }
+}
 @media(max-width:900px){
-  .document-card-image{height:165px;}
+  .document-card-image{
+    height:230px;
+    background-size:contain;
+    background-position:center top;
+  }
 }
 @media(max-width:620px){
-  .document-card-image{height:190px;}
+  .document-card-image{
+    height:220px;
+    background-size:contain;
+    background-position:center top;
+  }
   .document-hub-card .document-type,
   .document-hub-card h3,
   .document-hub-card p,
@@ -111,6 +128,7 @@
   }
 }
 </style>
+
 
 </head>
 <body>
