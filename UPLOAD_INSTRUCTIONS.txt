@@ -1,25 +1,16 @@
-KARATIN V6 — FIVE-LINK HEADER / HEADING CORRECTION
+KARATIN STAFFING DIVERSE IMAGE UPDATE V8
 
-CRITICAL: This ZIP is FLAT: .html files are directly inside, with NO extra enclosing folder.
+Upload these SIX files directly to the GitHub repository root:
 
-On GitHub, open the Karatin-Gov-web repository ROOT (the same place index.html appears).
-1. Unzip the archive on your computer.
-2. SELECT THE .HTML FILES INSIDE THE UNZIPPED FOLDER (not the folder itself).
-3. In GitHub repository ROOT select Add file -> Upload files.
-4. Drag the SELECTED .HTML FILES onto the upload area, then Commit changes.
-5. Do NOT create or upload a folder called karatin-v6-flat-nav-fix.
+1. index.html
+2. karatin-staffing-it-v8.jpg
+3. karatin-staffing-project-v8.jpg
+4. karatin-staffing-government-v8.jpg
+5. karatin-staffing-commercial-v8.jpg
+6. karatin-staffing-training-v8.jpg
 
-Header on all actual webpages:
+Replace index.html when prompted.
+The five image files use new filenames to avoid browser cache issues.
+
+Header remains:
 Home | Staffing | Government | Request Talent | Contact
-
-The removed items are not deleted from the website:
-- Government Documents is linked from the Government page
-- Consultation booking is still linked from page content and footer
-- Search / Resources remain accessible on their content pages
-
-This package deliberately DOES NOT include images or the experimental V5 illustration.
-It rolls back V5's card image CSS and corrects the heading/text wrapping.
-
-Check deployment by visiting https://karatinllc.com/index.html?v=6 (cache-busting URL).
-After the GitHub Pages deployment has finished, the top menu should show ONLY the five links.
-If not, verify that the updated index.html is in the repository ROOT, not a subfolder.
