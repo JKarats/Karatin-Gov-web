@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Request IT Talent | Karatin LLC Staffing</title>
+  <title>Request Talent or Training | Karatin LLC</title>
   <meta name="description" content="Request IT staffing support from Karatin LLC for infrastructure, cloud, applications, IT support, project work, and specialized technology roles across federal, SLED, and commercial organizations.">
   <link rel="canonical" href="https://karatinllc.com/request-talent.html">
   <link rel="stylesheet" href="css/style.css">
@@ -57,13 +57,13 @@
     <div class="container">
       <p class="eyebrow light">IT Staffing Solutions</p>
       <h1>Request Talent</h1>
-      <p>Tell us about the technology roles, project needs, or specialized expertise your organization is looking for. Karatin LLC will review your requirements and respond to discuss next steps.</p>
+      <p>Tell us about the roles, projects, or training support your organization needs. Karatin LLC will review your requirements and respond to discuss next steps.</p>
     </div>
   </section>
   <section class="talent-section" id="request-talent">
     <div class="container talent-layout">
       <div class="talent-intro">
-        <h2>Describe your staffing need.</h2>
+        <h2>Describe your talent or training need.</h2>
         <p>We support federal, state and local government, education, prime contractors, and commercial organizations.</p>
         <p>Potential needs include infrastructure, cloud, software and applications, IT support, business systems, project teams, and other technology roles.</p>
         <p><strong>Prefer email?</strong> <a href="mailto:info@KaratinLLC.com?subject=Request%20IT%20Talent">info@KaratinLLC.com</a></p>
@@ -73,6 +73,16 @@
         <input type="hidden" name="access_key" value="81ac82fe-729c-4ebf-9e9c-d549cce77875">
         <input type="hidden" name="subject" value="New Request Talent Inquiry — Karatin LLC">
         <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+        <label>Service requested *
+          <select id="talent-service" name="service_requested" required>
+            <option value="">Select a service</option>
+            <option value="IT Staffing">IT Staffing</option>
+            <option value="Project-Based Support">Project-Based Support</option>
+            <option value="Government Staffing">Government Staffing</option>
+            <option value="Commercial Staffing">Commercial Staffing</option>
+            <option value="Training &amp; Enablement">Training &amp; Enablement</option>
+          </select>
+        </label>
         <div class="two-cols">
           <label>Your name *<input type="text" name="name" autocomplete="name" required></label>
           <label>Work email *<input type="email" name="email" autocomplete="email" required></label>
@@ -86,7 +96,7 @@
             <input type="text" name="desired_start" placeholder="e.g., November 2026 or flexible">
           </label>
         </div>
-        <label>Roles or skills needed *<textarea name="roles_and_skills" rows="3" placeholder="e.g., Microsoft 365 admin, cloud engineer, project manager" required></textarea></label>
+        <label>Roles, skills, or training topics needed *<textarea name="roles_and_skills" rows="3" placeholder="e.g., Azure admin, program analyst, or administrator workshop" required></textarea></label>
         <label>Engagement details <textarea name="message" rows="5" placeholder="Estimated duration, number of people, onsite / hybrid / remote, and other requirements"></textarea></label>
         <button class="btn btn-primary" type="submit" id="talent-submit">Submit Talent Request</button>
         <p id="talent-status" role="status" aria-live="polite"></p>
@@ -121,6 +131,14 @@
    }catch(err){status.textContent='Your request could not be submitted. Please email info@KaratinLLC.com.';}
    finally{button.disabled=false;}
  });
+})();
+</script>
+<script>
+(function(){
+  const services={"it":"IT Staffing","project":"Project-Based Support","gov":"Government Staffing","commercial":"Commercial Staffing","training":"Training & Enablement"};
+  const type=new URLSearchParams(window.location.search).get('service');
+  const input=document.getElementById('talent-service');
+  if(type && services[type]) input.value=services[type];
 })();
 </script>
 </body>
