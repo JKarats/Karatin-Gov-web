@@ -1,16 +1,14 @@
-KARATIN STAFFING DIVERSE IMAGE UPDATE V8
+KARATIN STAFFING CARD IMAGE UPDATE V9
 
-Upload these SIX files directly to the GitHub repository root:
+Upload these six files directly to the GitHub repository root:
 
-1. index.html
-2. karatin-staffing-it-v8.jpg
-3. karatin-staffing-project-v8.jpg
-4. karatin-staffing-government-v8.jpg
-5. karatin-staffing-commercial-v8.jpg
-6. karatin-staffing-training-v8.jpg
+index.html
+karatin-it-staffing-v9.jpg
+karatin-project-support-v9.jpg
+karatin-government-staffing-v9.jpg
+karatin-commercial-staffing-v9.jpg
+karatin-training-enablement-v9.jpg
 
 Replace index.html when prompted.
-The five image files use new filenames to avoid browser cache issues.
 
-Header remains:
-Home | Staffing | Government | Request Talent | Contact
+This update keeps the approved five-link header and uses real 16:9 image elements so heads are not cropped.
