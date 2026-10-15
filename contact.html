@@ -72,6 +72,16 @@
 </script>
 <!-- KARATIN SEO-AEO END -->
 
+<style id="karatin-simple-header-v4">
+/* Five-link navigation: no document/search/booking buttons in the header. */
+.site-header .nav-wrap{gap:20px}
+.site-header .nav{gap:clamp(14px,2vw,28px);align-items:center}
+.site-header .nav>a{white-space:nowrap;font-size:.92rem}
+.site-header .brand{flex-shrink:0}
+@media(min-width:1051px){.site-header .nav-wrap{justify-content:space-between}}
+@media(max-width:1050px){.site-header .nav{align-items:stretch;gap:6px}}
+@media(max-width:1050px){.site-header .nav>a{white-space:normal;padding:9px 4px;font-size:1rem}}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -84,11 +94,8 @@
       <a href="index.html">Home</a>
       <a href="index.html#staffing">Staffing</a>
       <a href="government.html">Government</a>
-      <a href="documents.html">Government Documents</a>
-      <a href="teaming.html">Team With Us</a>
+      <a href="request-talent.html">Request Talent</a>
       <a href="contact.html">Contact</a>
-      <a class="nav-booking" href="https://bookings.cloud.microsoft/book/SharedBooking@KaratinLLC.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Book a Consultation</a>
-      <a class="nav-search" href="solutions.html#resources" aria-label="Search Resources">⌕ Search</a>
     </nav>
   </div>
 </header>
@@ -109,6 +116,7 @@
       <p><strong>Phone:</strong> (469) 269-0784</p>
       <p><strong>Location:</strong> Frisco, TX</p>
       <p><strong>Service Area:</strong> Nationwide</p>
+      <p>Looking for IT professionals? <a href="request-talent.html"><strong>Request Talent →</strong></a></p>
     </div>
     <form class="contact-form" id="karatin-contact-form">
       <input type="hidden" name="access_key" value="81ac82fe-729c-4ebf-9e9c-d549cce77875">

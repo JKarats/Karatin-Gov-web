@@ -809,6 +809,16 @@ img { max-width: 100%; height: auto; }
 }
 </style>
 
+<style id="karatin-simple-header-v4">
+/* Five-link navigation: no document/search/booking buttons in the header. */
+.site-header .nav-wrap{gap:20px}
+.site-header .nav{gap:clamp(14px,2vw,28px);align-items:center}
+.site-header .nav>a{white-space:nowrap;font-size:.92rem}
+.site-header .brand{flex-shrink:0}
+@media(min-width:1051px){.site-header .nav-wrap{justify-content:space-between}}
+@media(max-width:1050px){.site-header .nav{align-items:stretch;gap:6px}}
+@media(max-width:1050px){.site-header .nav>a{white-space:normal;padding:9px 4px;font-size:1rem}}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -821,11 +831,8 @@ img { max-width: 100%; height: auto; }
       <a href="index.html">Home</a>
       <a href="index.html#staffing">Staffing</a>
       <a href="government.html">Government</a>
-      <a href="documents.html">Government Documents</a>
-      <a href="teaming.html">Team With Us</a>
+      <a href="request-talent.html">Request Talent</a>
       <a href="contact.html">Contact</a>
-      <a class="nav-booking" href="https://bookings.cloud.microsoft/book/SharedBooking@KaratinLLC.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Book a Consultation</a>
-      <a class="nav-search" href="solutions.html#resources" aria-label="Search Resources">⌕ Search</a>
     </nav>
   </div>
 </header>
@@ -838,11 +845,25 @@ img { max-width: 100%; height: auto; }
     <p class="hero-copy">Karatin LLC delivers people, technology, and training solutions to help federal agencies, state and local governments, educational institutions, and commercial organizations secure data, strengthen compliance, and adopt AI responsibly.</p>
     <div class="agreed-hero-actions">
       <a class="btn btn-gold" href="solutions.html#solutions">Explore Solutions →</a>
-      <a class="btn btn-outline-light" href="documents.html">Government Documents</a>
+      <a class="btn btn-outline-light" href="#government-documents">Government Documents</a>
       <a class="btn btn-outline-light" href="https://bookings.cloud.microsoft/book/SharedBooking@KaratinLLC.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Book a Consultation →</a>
     </div>
   </div>
 </section>
+<section id="government-documents" class="section" style="background:#f5f7fa;scroll-margin-top:110px;">
+  <div class="container">
+    <p class="eyebrow">Government Documents</p>
+    <h2 style="max-width:800px;margin:0 0 12px;">Contracting and teaming information</h2>
+    <p style="max-width:810px;">Access Karatin LLC's Capability Statement, Capability Briefing, and Introduction Letter for contracting officials and prime-contractor teaming contacts.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:25px;">
+      <a class="btn btn-primary" href="documents.html">View All Government Documents</a>
+      <a class="btn btn-light" style="border:1px solid #c6ced9;" href="capability-statement.html">Capability Statement</a>
+      <a class="btn btn-light" style="border:1px solid #c6ced9;" href="capability-briefing.html">Capability Briefing</a>
+      <a class="btn btn-light" style="border:1px solid #c6ced9;" href="introduction-letter.html">Introduction Letter</a>
+    </div>
+  </div>
+</section>
+
 
 <section class="agreed-capabilities">
   <div class="container">

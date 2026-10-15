@@ -1,20 +1,25 @@
-KARATIN LLC — STAFFING-FIRST V4 / SIMPLE HEADER
+KARATIN V6 — FIVE-LINK HEADER / HEADING CORRECTION
 
-TOP NAVIGATION ON EVERY PAGE:
+CRITICAL: This ZIP is FLAT: .html files are directly inside, with NO extra enclosing folder.
+
+On GitHub, open the Karatin-Gov-web repository ROOT (the same place index.html appears).
+1. Unzip the archive on your computer.
+2. SELECT THE .HTML FILES INSIDE THE UNZIPPED FOLDER (not the folder itself).
+3. In GitHub repository ROOT select Add file -> Upload files.
+4. Drag the SELECTED .HTML FILES onto the upload area, then Commit changes.
+5. Do NOT create or upload a folder called karatin-v6-flat-nav-fix.
+
+Header on all actual webpages:
 Home | Staffing | Government | Request Talent | Contact
 
-Removed from the top: Government Documents, Team With Us, Search, Book a Consultation.
+The removed items are not deleted from the website:
+- Government Documents is linked from the Government page
+- Consultation booking is still linked from page content and footer
+- Search / Resources remain accessible on their content pages
 
-Government Documents are accessible within the Government page and still work at documents.html.
-Request Talent opens request-talent.html with a working-form integration using the same Web3Forms account as Contact.
-Book a Consultation is still accessible in page content and the footer.
+This package deliberately DOES NOT include images or the experimental V5 illustration.
+It rolls back V5's card image CSS and corrects the heading/text wrapping.
 
-DEPLOY TO GITHUB PAGES:
-1. Extract this ZIP.
-2. In the repository main/root directory, choose Add file -> Upload files.
-3. Drag all HTML and JPG files at the ROOT (not the containing folder) and commit.
-4. Replace existing files when prompted. Older image names need not be deleted; the V3 homepage references the new V3 photos.
-5. Check the Home, Government, Request Talent, and Contact links at karatinllc.com.
-
-This package does not include replacement PDFs, site CSS, JS, or document downloads, so those remain unchanged.
-The Request Talent submission uses existing Web3Forms configuration; confirm delivery with a test form submission after publishing.
+Check deployment by visiting https://karatinllc.com/index.html?v=6 (cache-busting URL).
+After the GitHub Pages deployment has finished, the top menu should show ONLY the five links.
+If not, verify that the updated index.html is in the repository ROOT, not a subfolder.
