@@ -75,19 +75,33 @@
 
 
 <style id="karatin-document-images-restored">
+/* V11: display actual image elements with stable aspect ratio.
+   No CSS background images, no embedded titles to clip. */
 .document-hub-card{
   overflow:hidden;
   padding-top:0 !important;
   position:relative;
+  display:flex;
+  flex-direction:column;
 }
-.document-card-image{
-  height:215px;
-  margin:0 -1px 18px;
-  background-size:contain;
-  background-position:center top;
-  background-repeat:no-repeat;
-  background-color:#fff;
+.document-hub-card .document-card-image{
+  width:100%;
+  height:auto !important;
+  aspect-ratio: 12 / 5.1;
+  display:block;
+  overflow:hidden;
+  margin:0 0 22px;
+  padding:0 !important;
+  background:#eef2f6;
   border-bottom:1px solid #dfe5ec;
+}
+.document-hub-card .document-card-image img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+  border:0;
 }
 .document-hub-card .document-type,
 .document-hub-card h3,
@@ -97,28 +111,15 @@
   margin-right:32px;
 }
 .document-hub-card .document-actions{
+  margin-top:auto;
+  padding-top:20px;
   margin-bottom:32px;
 }
-@media(max-width:1100px){
-  .document-card-image{
-    height:200px;
-    background-size:contain;
-    background-position:center top;
-  }
-}
 @media(max-width:900px){
-  .document-card-image{
-    height:230px;
-    background-size:contain;
-    background-position:center top;
-  }
+  .document-hub-grid{grid-template-columns:1fr}
+  .document-hub-card .document-card-image{aspect-ratio:12 / 5.1}
 }
 @media(max-width:620px){
-  .document-card-image{
-    height:220px;
-    background-size:contain;
-    background-position:center top;
-  }
   .document-hub-card .document-type,
   .document-hub-card h3,
   .document-hub-card p,
@@ -175,7 +176,7 @@
 
     <div class="document-hub-grid">
       <article class="document-hub-card reveal">
-        <div class="document-card-image" style="background-image:url('doc-capability-card-v2.jpg')" role="img" aria-label="Capability Statement"></div>
+        <div class="document-card-image"><img src="karatin-document-capability-v11.jpg" alt="Capability Statement document preview" loading="lazy" decoding="async"></div>
         <div class="document-type">01</div>
         <h3>Capability Statement</h3>
         <p>One-page overview of core competencies, differentiators, NAICS codes, company data, and contact information.</p>
@@ -186,7 +187,7 @@
       </article>
 
       <article class="document-hub-card reveal">
-        <div class="document-card-image" style="background-image:url('doc-briefing.jpg')" role="img" aria-label="Capability Briefing"></div>
+        <div class="document-card-image"><img src="karatin-document-briefing-v11.jpg" alt="Capability Briefing document preview" loading="lazy" decoding="async"></div>
         <div class="document-type">02</div>
         <h3>Capability Briefing</h3>
         <p>Executive-style briefing for agencies, small-business offices, program managers, and teaming partners.</p>
@@ -197,7 +198,7 @@
       </article>
 
       <article class="document-hub-card reveal">
-        <div class="document-card-image" style="background-image:url('doc-letter.jpg')" role="img" aria-label="Introduction Letter"></div>
+        <div class="document-card-image"><img src="karatin-document-letter-v11.jpg" alt="Introduction Letter document preview" loading="lazy" decoding="async"></div>
         <div class="document-type">03</div>
         <h3>Introduction Letter</h3>
         <p>Professional introduction for contracting officers, OSDBU representatives, and prime-contractor outreach.</p>

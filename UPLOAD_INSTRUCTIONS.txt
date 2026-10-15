@@ -1,14 +1,15 @@
-KARATIN STAFFING CARD IMAGE UPDATE V9
+KARATIN GOVERNMENT DOCUMENTS IMAGE FIX — V11
 
-Upload these six files directly to the GitHub repository root:
+UPLOAD ONLY THESE FOUR FILES TO THE ROOT OF YOUR GITHUB REPOSITORY:
 
-index.html
-karatin-it-staffing-v9.jpg
-karatin-project-support-v9.jpg
-karatin-government-staffing-v9.jpg
-karatin-commercial-staffing-v9.jpg
-karatin-training-enablement-v9.jpg
+1. documents.html (replace existing file)
+2. karatin-document-capability-v11.jpg
+3. karatin-document-briefing-v11.jpg
+4. karatin-document-letter-v11.jpg
 
-Replace index.html when prompted.
+Do NOT upload the containing folder. There are NO changes to existing PDFs,
+PowerPoint files, header navigation, government.html, or index.html.
 
-This update keeps the approved five-link header and uses real 16:9 image elements so heads are not cropped.
+The 3 files use NEW names to avoid previously cached/broken image paths.
+Once GitHub Pages has deployed, open https://karatinllc.com/documents.html?version=11
+and refresh your browser.
