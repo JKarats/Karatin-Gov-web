@@ -1,11 +1,8 @@
-Upload these two files to your website root:
+Karatin approved homepage hero V18
 
-1. index.html  (replace existing)
-2. homepage-hero-neutral-v17.jpg  (new file)
+Upload these THREE files directly to the GitHub repository root:
+1. index.html (replace existing)
+2. karatin-approved-hero-v18.png (new)
+3. karatin-approved-team-mobile-v18.jpg (new)
 
-This update only changes the homepage hero section:
-- Replaces the Capitol background with a neutral staffing image
-- Keeps the existing layout style
-- Removes the Government Solutions and Book a Consultation hero CTAs
-- Leaves only Explore Staffing Solutions
-- Preserves responsive/mobile behavior for the homepage
+Changes: exact previously approved desktop hero art, single clickable Explore Staffing Solutions CTA, responsive mobile view using photo of the same four people and live legible text. Nothing outside the homepage hero has been edited.
