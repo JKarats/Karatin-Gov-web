@@ -1,12 +1,21 @@
-KARATIN TRAINING & ENABLEMENT – V15
+KARATIN | SERVICE PAGE REDESIGN V16
 
-Upload all FOUR files directly to the root of your GitHub repository:
+Upload these four HTML pages AND twelve JPG files directly to your GitHub repository ROOT.
+Do not upload the containing folder. Replace the four existing HTML pages only.
 
-training-enablement.html
-karatin-training-classroom-v15.jpg
-karatin-training-workshop-v15.jpg
-karatin-training-collaboration-v15.jpg
+IT Staffing: it-staffing.html
+Project-Based Support: project-based-support.html
+Government Staffing: government-staffing.html
+Commercial Staffing: commercial-staffing.html
 
-Only training-enablement.html is changed. No other HTML pages, Capability Statement, Introduction Letter or Capability Briefing are included or changed.
+All 12 images are named karatin-*-v16.jpg.
 
-This version explains training programs, tangible deliverables, a sample agenda and KPIs. Proposed KPIs are not claims about historical results.
+No homepage, navigation, training-enablement.html, request-talent.html,
+Government Documents, Capability Briefing, Introduction Letter, or Capability Statement
+was edited. The five-link header is kept.
+
+Pages use existing root-level karatin-logo.png, request-talent.html, index.html,
+government.html, contact.html and documents.html.
+
+Suggested KPIs are measurement examples, not performance claims. No clearance,
+contract vehicle, or guaranteed placement timelines are asserted.
