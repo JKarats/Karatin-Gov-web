@@ -1,15 +1,12 @@
-Karatin Capability Briefing Update V14
+KARATIN TRAINING & ENABLEMENT – V15
 
-Upload ONLY the following FOUR website files directly to the GitHub repository ROOT (not inside a folder):
+Upload all FOUR files directly to the root of your GitHub repository:
 
-1. capability-briefing.html (replaces existing online page)
-2. documents.html (updates only the briefing card and its links; preserves Capability Statement and Introduction Letter links)
-3. Karatin_Capability_Briefing.pptx (replaces old PowerPoint using the corrected 10-slide deck)
-4. Karatin_Capability_Briefing.pdf (new PDF with corrected photo proportions)
+training-enablement.html
+karatin-training-classroom-v15.jpg
+karatin-training-workshop-v15.jpg
+karatin-training-collaboration-v15.jpg
 
-Commit the changes, allow GitHub Pages to publish, then test:
-https://karatinllc.com/documents.html?v=14
-https://karatinllc.com/capability-briefing.html?v=14
+Only training-enablement.html is changed. No other HTML pages, Capability Statement, Introduction Letter or Capability Briefing are included or changed.
 
-The Capability Statement has NOT been changed or included.
-The home page, Government page, other pages, and preview images have NOT been changed or included.
+This version explains training programs, tangible deliverables, a sample agenda and KPIs. Proposed KPIs are not claims about historical results.
