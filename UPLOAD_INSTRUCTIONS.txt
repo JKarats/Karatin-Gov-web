@@ -1,21 +1,11 @@
-KARATIN | SERVICE PAGE REDESIGN V16
+Upload these two files to your website root:
 
-Upload these four HTML pages AND twelve JPG files directly to your GitHub repository ROOT.
-Do not upload the containing folder. Replace the four existing HTML pages only.
+1. index.html  (replace existing)
+2. homepage-hero-neutral-v17.jpg  (new file)
 
-IT Staffing: it-staffing.html
-Project-Based Support: project-based-support.html
-Government Staffing: government-staffing.html
-Commercial Staffing: commercial-staffing.html
-
-All 12 images are named karatin-*-v16.jpg.
-
-No homepage, navigation, training-enablement.html, request-talent.html,
-Government Documents, Capability Briefing, Introduction Letter, or Capability Statement
-was edited. The five-link header is kept.
-
-Pages use existing root-level karatin-logo.png, request-talent.html, index.html,
-government.html, contact.html and documents.html.
-
-Suggested KPIs are measurement examples, not performance claims. No clearance,
-contract vehicle, or guaranteed placement timelines are asserted.
+This update only changes the homepage hero section:
+- Replaces the Capitol background with a neutral staffing image
+- Keeps the existing layout style
+- Removes the Government Solutions and Book a Consultation hero CTAs
+- Leaves only Explore Staffing Solutions
+- Preserves responsive/mobile behavior for the homepage
