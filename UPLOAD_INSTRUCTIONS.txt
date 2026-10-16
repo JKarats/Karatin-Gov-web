@@ -1,19 +1,15 @@
-KARATIN INTRODUCTION LETTER WEBSITE UPDATE V13
+Karatin Capability Briefing Update V14
 
-Upload these THREE files directly into the ROOT of the GitHub repository:
+Upload ONLY the following FOUR website files directly to the GitHub repository ROOT (not inside a folder):
 
-1. introduction-letter.html  (replace existing page)
-2. documents.html            (replace existing Government Documents page, preserving V11 images)
-3. Karatin_Introduction_Letter_Final.pdf  (new PDF)
+1. capability-briefing.html (replaces existing online page)
+2. documents.html (updates only the briefing card and its links; preserves Capability Statement and Introduction Letter links)
+3. Karatin_Capability_Briefing.pptx (replaces old PowerPoint using the corrected 10-slide deck)
+4. Karatin_Capability_Briefing.pdf (new PDF with corrected photo proportions)
 
-In GitHub, click Add file > Upload files, drag these THREE individual files into the root, then Commit changes.
+Commit the changes, allow GitHub Pages to publish, then test:
+https://karatinllc.com/documents.html?v=14
+https://karatinllc.com/capability-briefing.html?v=14
 
-IMPORTANT: Do not upload the containing folder or the ZIP directly. No need to replace any images.
-The Capability Statement and Capability Briefing files are NOT part of this package and are NOT modified.
-The Government Documents page retains its three V11 image filenames and other document links.
-The introduction-letter.html page displays the revised staffing-first letter and links to the final one-page PDF. No city/state is listed on that document page.
-
-After publishing, visit:
-https://karatinllc.com/introduction-letter.html?v=13
-https://karatinllc.com/documents.html?v=13
-
+The Capability Statement has NOT been changed or included.
+The home page, Government page, other pages, and preview images have NOT been changed or included.
