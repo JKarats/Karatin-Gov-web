@@ -1,17 +1,28 @@
-Karatin service gallery alignment V32
+KARATIN V33 — WEBSITE FOOTER POLICY LINKS
 
-CHANGED ONLY THE PICTURE GALLERIES ON FIVE SERVICE PAGES:
- - it-staffing.html: equal-sized photo frames; replace one duplicate photo
- - project-based-support.html: equal-sized photo frames; replace one duplicate photo
- - government-staffing.html: keep BOTH original photos, align to equal-sized frames
- - commercial-staffing.html: keep BOTH original photos, align to equal-sized frames
- - training-enablement.html: keep BOTH original photos, align to equal-sized frames
+Four new informational pages:
+  privacy.html
+  terms.html
+  accessibility.html
+  eeo.html
 
-The rest of each page, its words, other photographs, navigation, forms, links, and documents are unchanged.
+Main-site footer links (maintains the previous Resources footer behavior):
+  js/main.js (replace the existing file INSIDE your js folder)
 
-TO UPLOAD TO GITHUB:
-Upload 5 replacement HTML files and 2 NEW JPG photos directly to your repository root.
-All other existing photos will remain on GitHub; DO NOT delete them.
-Commit changes and refresh pages (Ctrl+F5 or private browsing).
+Service pages with compact footers (replace only these existing root files):
+  it-staffing.html
+  project-based-support.html
+  government-staffing.html
+  commercial-staffing.html
+  training-enablement.html
 
-No Capability Statement changes.
+Upload the four new policy HTML files and five service-page files to the repository root.
+Upload js/main.js inside the repository js/ folder.
+
+No existing homepage, government homepage, documents, or capability statement files are included.
+
+REVIEW BEFORE PUBLISHING:
+These are general proposed website policy and EEO pages, NOT legal compliance certifications.
+Please confirm privacy/data retention and staffing practices with company management or counsel,
+and ensure the final statements match actual operations. The Privacy page identifies Web3Forms
+because it is present in the website source.

@@ -56,3 +56,23 @@ document.querySelectorAll('.counter').forEach(counter=>{
     });
   });
 })();
+
+/* V33: Add site-policy links to existing footers without changing their columns. */
+(() => {
+  const pages = [['Privacy','privacy.html'],['Terms','terms.html'],['Accessibility','accessibility.html'],['EEO','eeo.html']];
+  document.querySelectorAll('footer.site-footer').forEach(footer => {
+    if (footer.querySelector('.karatin-legal-links')) return;
+    const bar = document.createElement('nav');
+    bar.className = 'karatin-legal-links';
+    bar.setAttribute('aria-label','Website policies');
+    bar.style.cssText = 'display:flex;gap:10px 22px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px;font-size:.88rem;';
+    pages.forEach(([label,href]) => {
+      const a = document.createElement('a');
+      a.href=href;a.textContent=label;a.style.cssText='color:#dbe8f6;text-decoration:underline;text-underline-offset:3px;';
+      bar.appendChild(a);
+    });
+    const copyright = footer.querySelector('.copyright');
+    if (copyright) { copyright.appendChild(bar); }
+    else { footer.appendChild(bar); }
+  });
+})();
