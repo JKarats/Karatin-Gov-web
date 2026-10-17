@@ -1,9 +1,7 @@
-Karatin Contact Page — V25 updated approved wording
+Karatin LLC — Contact page wording correction (V25)
 
-Upload contact.html to the GitHub Pages publishing folder (normally the repository root) and replace the existing contact.html.
+Replace the existing contact.html in the website repository root with this one file.
 
-No other file is needed if the V24 consultation photograph (karatin-contact-consultation-v24.jpg) is already live in the same folder.
+Change: “Whether you’re looking for…” → “If you are looking for…”
 
-This update changes ONLY the Contact page hero headline and paragraph. It does not change the image, navigation, contact form, Request Talent banner, or Capability Statement.
-
-After GitHub Pages deploys, open https://karatinllc.com/contact.html?v=25final in a new tab and confirm the headline “Let’s Build What’s Next. Together.” is visible.
+All other wording, layout, photo references, request talent section, form, and site navigation remain unchanged.
