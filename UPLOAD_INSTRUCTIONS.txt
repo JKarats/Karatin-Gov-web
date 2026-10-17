@@ -1,7 +1,10 @@
-Karatin Government Hero Update V20
+Karatin Government Hero — V21 Full-Dome Correction
 
-Upload only government.html to the root of your GitHub Pages repository; replace the existing government.html.
+Upload these TWO files to your GitHub repository ROOT:
+1. government.html (replace the existing file)
+2. karatin-government-capitol-full-dome-v21.jpg (add this new image)
 
-Changes: Hero eyebrow, headline, and descriptive paragraph now lead with government staffing and mission support. Removed Explore Solutions and Book a Consultation buttons from hero. Kept Government Documents as the only hero button.
+This V21 revision uses the newly approved full-dome Capitol photo.
+The shorter hero, staffing-first headline, one Government Documents CTA, CAGE 23FF5 and UEI EJGLFLLKUKK8 display, and mobile layout are preserved.
 
-Unchanged: Capitol photo file hero-capitol-clean.jpg, all page sections below hero, navigation, government documents, footer, services, and Capability Statement.
+No other pages, documents, or the Capability Statement were changed.
