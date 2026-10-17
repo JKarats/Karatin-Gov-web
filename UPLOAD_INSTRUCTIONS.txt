@@ -1,8 +1,18 @@
-Karatin approved homepage hero V18
+Karatin Solutions & Resources — V19 (approved banner image)
 
-Upload these THREE files directly to the GitHub repository root:
-1. index.html (replace existing)
-2. karatin-approved-hero-v18.png (new)
-3. karatin-approved-team-mobile-v18.jpg (new)
+Use this package INSTEAD of the earlier V19 ZIP. The only website change from V19 is replacing the Government Solutions banner with the newly approved professional team image. The image has a NEW filename to avoid cache issues.
 
-Changes: exact previously approved desktop hero art, single clickable Explore Staffing Solutions CTA, responsive mobile view using photo of the same four people and live legible text. Nothing outside the homepage hero has been edited.
+Upload the following eight files DIRECTLY to your GitHub repository ROOT (not inside a folder):
+
+  solutions.html  (replace existing)
+  secure-ai-adoption.html
+  data-protection.html
+  compliance-readiness.html
+  karatin-solutions-banner-v19-approved.jpg  (NEW approved photo)
+  karatin-ai-adoption-v19.jpg
+  karatin-data-protection-v19.jpg
+  karatin-compliance-v19.jpg
+
+The five capability cards and their destinations remain unchanged, as do the original 22 Knowledge Center resources, homepage, five-link navigation, document links, and Capability Statement.
+
+After committing, allow GitHub Pages to publish. Then check https://karatinllc.com/solutions.html?v=19-approved on desktop and mobile.
