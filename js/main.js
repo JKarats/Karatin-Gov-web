@@ -36,7 +36,7 @@ document.querySelectorAll('.counter').forEach(counter=>{
    Applies to pages that load the shared js/main.js; leaves all other footer groups intact. */
 (() => {
   const articles = [
-    ['Data Security', 'microsoft-365-security-readiness-checklist.html'],
+    ['Data Security', 'enterprise-data-security-readiness-checklist.html'],
     ['Data Classification', 'data-classification-labeling-use-cases.html'],
     ['DLP & Labeling', 'classification-labeling-dlp-use-cases.html'],
     ['AI & Data Governance', 'ai-governance-operating-model.html'],

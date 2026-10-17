@@ -1,3 +1,4 @@
+if (document.getElementById("resourceSearch")) {
 
 const input = document.getElementById('resourceSearch');
 const button = document.getElementById('searchButton');
@@ -49,6 +50,31 @@ filters.forEach(filter => {
 const params = new URLSearchParams(window.location.search);
 const category = params.get('category');
 if (category) {
-  const match = filters.find(btn => btn.dataset.filter === category);
+  // Preserve legacy bookmarks without restoring product-specific categories.
+  const legacy = {
+    govcon: 'business',
+    m365: 'data-security',
+    microsoft365: 'data-security',
+    purview: 'classification',
+    ai: 'responsible-ai',
+    'ai-governance': 'responsible-ai',
+    cybersecurity: 'data-security'
+  };
+  const normalized = legacy[category.toLowerCase()] || category;
+  const match = filters.find(btn => btn.dataset.filter === normalized);
   if (match) match.click();
+}
+
+// Reconfirm the anchor position after images and fonts load. Without this,
+// some browsers land at the capabilities cards instead of the article index.
+function openResourceLibrary() {
+  if (window.location.hash !== '#resources' && !category) return;
+  const section = document.getElementById('resources');
+  if (!section) return;
+  const clearance = window.matchMedia('(max-width:600px)').matches ? 70 : 100;
+  const top = section.getBoundingClientRect().top + window.scrollY - clearance;
+  window.scrollTo({top: Math.max(0, top), behavior: 'instant'});
+}
+window.addEventListener('load', () => requestAnimationFrame(openResourceLibrary), {once:true});
+
 }

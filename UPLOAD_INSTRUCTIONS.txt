@@ -1,23 +1,23 @@
-KARATIN WEBSITE FOOTER UPDATE — V29
+KARATIN — RESOURCES V30 (VENDOR-NEUTRAL)
 
-This package updates the shared site script only. It does not overwrite any existing HTML, images, forms, articles, or documents.
+This update changes Resources pages, related article URLs, the resource filters/search, the Resources deep link (#resources), and shared footer article links.
 
-1. Extract the ZIP.
-2. In the same GitHub repository/folder from which karatinllc.com is published, open the js folder.
-3. Replace existing file js/main.js with the supplied js/main.js.
-4. Commit changes and wait for the GitHub Pages deployment to finish.
-5. Open https://karatinllc.com/government.html?v=29 in a new/private browser window and scroll to the footer.
-6. Check one of the direct article links (e.g., Data Classification).
+Upload ALL the files from this ZIP to the same locations in the published GitHub Pages repository.
+- solutions.html goes in the root (replace existing)
+- 24 updated/new vendor-neutral articles go in the root
+- 8 legacy URLs are lightweight redirects and must also go in the root, replacing their old names
+- js/main.js and js/resources-search.js go inside the existing js folder (replace existing).
 
-RESULT:
-- Resources footer links go directly to these existing article pages:
-  Data Security => microsoft-365-security-readiness-checklist.html
-  Data Classification => data-classification-labeling-use-cases.html
-  DLP & Labeling => classification-labeling-dlp-use-cases.html
-  AI & Data Governance => ai-governance-operating-model.html
-  Responsible AI => ai-risk-assessment-checklist.html
-- Removes 'Microsoft expertise.' from the footer tagline, retaining 'Mission-focused outcomes.'
+DO NOT delete any existing images, CSS, forms, Government Documents, or other pages.
 
-IMPORTANT: The two newer Data Classification and DLP articles must already be published from V28. If not, upload those HTML files from the V28 package as well.
+The original URLs continue to work through the included redirect pages.
+Government page, homepage, documents, and capability statement are NOT part of this ZIP.
 
-All other page content and the Capability Statement remain unchanged.
+IMPORTANT: The Resources link now jumps DIRECTLY to the Knowledge Center article index, not the capabilities overview.
+
+Check after publishing:
+https://karatinllc.com/solutions.html#resources
+https://karatinllc.com/enterprise-data-security-readiness-checklist.html
+https://karatinllc.com/preparing-enterprise-data-for-ai.html
+
+Note: vendor-neutral articles discuss capabilities rather than implying all platforms have identical features.
