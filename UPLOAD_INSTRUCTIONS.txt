@@ -1,14 +1,28 @@
-KARATIN GOVERNMENT CAPABILITY LINKS FIX - V22
+KARATIN GOVERNMENT PAGE - DIRECT CAPABILITY LINKS V23
 
-Upload only government.html to the website root and replace the existing government.html.
+WHAT TO UPLOAD
+* Upload ONLY government.html to the ROOT of your published GitHub Pages repository (same folder as index.html).
+* Replace the existing government.html and commit the change.
+* Do NOT upload or replace solutions.html, documents.html, images, or any PDF.
 
-The five Government page capability cards now link directly to their full service pages:
-- Training -> training-enablement.html
-- Staffing -> government-staffing.html
-- Secure AI Adoption -> secure-ai-adoption.html
-- Data Protection -> data-protection.html
-- Data Privacy & Compliance Readiness -> compliance-readiness.html
+CHECK THAT YOUR UPDATE IS LIVE
+1. Wait for the GitHub Pages deployment to finish (Actions > Pages build and deployment).
+2. Open https://karatinllc.com/government.html?v=23 in a private/incognito tab.
+3. Scroll to Our Capabilities. The links should now say:
+   - Explore training programs
+   - Explore government staffing
+   - Explore secure AI services
+   - Explore data protection
+   - Explore compliance services
+4. Hover or right-click a link. None should point to solutions.html#solutions.
+5. If the page still says Learn More, the updated government.html was not published from the active Pages source/branch, or a cached page is shown. Verify Settings > Pages deployment source and file location.
 
-The V21 Capitol full-dome background image, CAGE/UEI strip, hero text, layout, header, and all other content remain unchanged. No image uploads are necessary.
+CHANGES: Five link labels plus a diagnostic HTML metadata tag.
+The V21 Capitol image, hero, CAGE/UEI, nav, other sections and Capability Statement remain untouched.
 
-Ensure these five target pages are already present in the repository; they were supplied in earlier V15, V16, and V19 releases.
+TARGET FILES MUST EXIST IN YOUR REPO
+training-enablement.html
+government-staffing.html
+secure-ai-adoption.html
+data-protection.html
+compliance-readiness.html
