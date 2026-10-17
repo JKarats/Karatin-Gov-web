@@ -1,28 +1,7 @@
-KARATIN V33 — WEBSITE FOOTER POLICY LINKS
+Karatin Homepage Government section wording-only fix (V34)
 
-Four new informational pages:
-  privacy.html
-  terms.html
-  accessibility.html
-  eeo.html
+Upload index.html directly to the published root of your GitHub Pages repository, replacing the existing index.html. No other files need uploading.
 
-Main-site footer links (maintains the previous Resources footer behavior):
-  js/main.js (replace the existing file INSIDE your js folder)
+This change only replaces the outdated paragraph beginning "The previous Karatin homepage" with professional Government Solutions copy. Hero image, responsive styles, headings, buttons, navigation, footer, and Capability Statement are untouched.
 
-Service pages with compact footers (replace only these existing root files):
-  it-staffing.html
-  project-based-support.html
-  government-staffing.html
-  commercial-staffing.html
-  training-enablement.html
-
-Upload the four new policy HTML files and five service-page files to the repository root.
-Upload js/main.js inside the repository js/ folder.
-
-No existing homepage, government homepage, documents, or capability statement files are included.
-
-REVIEW BEFORE PUBLISHING:
-These are general proposed website policy and EEO pages, NOT legal compliance certifications.
-Please confirm privacy/data retention and staffing practices with company management or counsel,
-and ensure the final statements match actual operations. The Privacy page identifies Web3Forms
-because it is present in the website source.
+Once the Pages deployment succeeds, reload https://karatinllc.com/index.html?v=34 to bypass cached HTML.
