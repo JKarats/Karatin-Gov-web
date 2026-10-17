@@ -37,6 +37,33 @@
 @media(max-width:560px){.tr-wrap{width:calc(100% - 36px)}.tr-hero h1{font-size:clamp(2.15rem,9vw,3.1rem)}.tr-actions{display:grid;grid-template-columns:1fr}.tr-button{width:100%}.tr-programs,.tr-measures,.tr-delivery,.tr-faq,.tr-gallery{grid-template-columns:1fr}.tr-section{padding:45px 0}.tr-promise{font-size:.77rem;gap:6px;align-items:flex-start;padding:18px 7px}.tr-promise svg{width:24px;height:24px;flex-basis:24px}.tr-agenda li{grid-template-columns:70px 1fr}.tr-gallery img,.tr-image img{width:100%;height:auto;object-fit:contain}.tr-cta{padding:47px 0}}
 @media(prefers-reduced-motion:reduce){.tr-button{transition:none}}
 </style>
+
+<style id="karatin-gallery-alignment-v32">
+/* Gallery-only correction: equal image frames; preserve all original training photographs. */
+.tr-gallery {
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  align-items:start !important;
+  gap:20px !important;
+}
+.tr-gallery figure {min-width:0 !important;margin:0 !important;}
+.tr-gallery img {
+  display:block !important;
+  width:100% !important;
+  height:310px !important;
+  object-fit:cover !important;
+  object-position:center 30% !important;
+  border-radius:7px !important;
+}
+@media(max-width:900px) {
+  .tr-gallery img {height:clamp(200px,28vw,295px) !important;}
+}
+@media(max-width:560px) {
+  .tr-gallery {grid-template-columns:1fr !important;gap:24px !important;}
+  .tr-gallery img {height:clamp(190px,55vw,300px) !important;}
+}
+</style>
+
 </head><body>
 <header class="svc-header"><div class="svc-container svc-header-row"><a class="svc-brand" href="index.html" aria-label="Karatin home"><img src="karatin-logo.png" alt="Karatin LLC"></a><button class="svc-menu-toggle" id="svc-menu-toggle" type="button" aria-label="Open navigation" aria-controls="svc-menu" aria-expanded="false">☰</button><nav class="svc-menu" id="svc-menu" aria-label="Primary navigation"><a href="index.html">Home</a><a href="index.html#staffing">Staffing</a><a href="government.html">Government</a><a href="request-talent.html">Request Talent</a><a href="contact.html">Contact</a></nav></div></header>
 <main>

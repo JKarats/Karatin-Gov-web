@@ -1,24 +1,17 @@
-KARATIN V31 — COMPLETE RESOURCES COLLECTIONS FIX
+Karatin service gallery alignment V32
 
-This is the self-contained Resources content update built on V30, including all 26 articles (24 prior + 2 new), 5 topic pages, and 8 backwards-compatible redirects.
+CHANGED ONLY THE PICTURE GALLERIES ON FIVE SERVICE PAGES:
+ - it-staffing.html: equal-sized photo frames; replace one duplicate photo
+ - project-based-support.html: equal-sized photo frames; replace one duplicate photo
+ - government-staffing.html: keep BOTH original photos, align to equal-sized frames
+ - commercial-staffing.html: keep BOTH original photos, align to equal-sized frames
+ - training-enablement.html: keep BOTH original photos, align to equal-sized frames
 
-The Resources footer topics now open CURATED READING PAGES, each containing 4 to 6 full articles with relevant use cases—not a single readiness checklist. These work by direct HTML links, and the shared js/main.js updates the footer on other website pages too.
+The rest of each page, its words, other photographs, navigation, forms, links, and documents are unchanged.
 
-UPLOAD:
-1. Extract the ZIP.
-2. Upload all .html files directly to the PUBLISHED WEBSITE REPOSITORY ROOT (replacing same-named files).
-3. Open the ZIP's js/ folder and upload main.js and resources-search.js into your site's existing js/ folder (replacing same-named files).
-4. DO NOT upload the UPLOAD_INSTRUCTIONS.txt file; it is only for your reference.
-5. Commit all changes, wait until GitHub Pages deployment succeeds, then check the links below in a private browser window.
+TO UPLOAD TO GITHUB:
+Upload 5 replacement HTML files and 2 NEW JPG photos directly to your repository root.
+All other existing photos will remain on GitHub; DO NOT delete them.
+Commit changes and refresh pages (Ctrl+F5 or private browsing).
 
-DO NOT DELETE your CSS, images, other service pages, forms, or Government Documents. No homepage, Government page, Contact page, Capability Statement, or branding files are modified in this package.
-
-VERIFY:
-https://karatinllc.com/resources-data-security.html
-https://karatinllc.com/resources-data-classification.html
-https://karatinllc.com/resources-dlp-labeling.html
-https://karatinllc.com/resources-ai-data-governance.html
-https://karatinllc.com/resources-responsible-ai.html
-https://karatinllc.com/solutions.html#resources
-
-Each footer Resources topic should open a topic landing page. Clicking Read article should open its own full-length article. The main Knowledge Center contains 26 articles and links to each topic.
+No Capability Statement changes.

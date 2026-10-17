@@ -53,6 +53,33 @@
 @media(max-width:900px){.sv-snapshot-grid{grid-template-columns:1fr;gap:27px}}
 @media(max-width:670px){.sv-images{grid-template-columns:1fr}.sv-snapshot{padding:23px 21px}}
 </style>
+
+<style id="karatin-gallery-alignment-v32">
+/* Gallery-only correction: equal columns and image heights; preserve captions and the rest of each page. */
+.sv-images {
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:20px !important;
+  align-items:start !important;
+}
+.sv-images figure {min-width:0 !important;margin:0 !important;}
+.sv-images img {
+  display:block !important;
+  width:100% !important;
+  height:310px !important;
+  object-fit:cover !important;
+  object-position:center 32% !important;
+  border-radius:6px !important;
+}
+@media (max-width:900px) {
+ .sv-images img {height:clamp(200px,28vw,295px) !important;}
+}
+@media (max-width:670px) {
+ .sv-images {grid-template-columns:1fr !important;gap:24px !important;}
+ .sv-images img {height:clamp(190px,55vw,300px) !important;}
+}
+</style>
+
 </head><body>
 <header class="svc-header"><div class="svc-container svc-header-row"><a aria-label="Karatin home" class="svc-brand" href="index.html"><img alt="Karatin LLC" src="karatin-logo.png"/></a><button aria-controls="svc-menu" aria-expanded="false" aria-label="Open navigation" class="svc-menu-toggle" id="svc-menu-toggle" type="button">☰</button><nav aria-label="Primary navigation" class="svc-menu" id="svc-menu"><a href="index.html">Home</a><a href="index.html#staffing">Staffing</a><a href="government.html">Government</a><a href="request-talent.html">Request Talent</a><a href="contact.html">Contact</a></nav></div></header>
 <main><section aria-labelledby="sv-main-title" class="tr-hero"><div class="tr-wrap tr-hero-grid"><div>
