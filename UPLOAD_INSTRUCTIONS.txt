@@ -1,28 +1,27 @@
-KARATIN WEBSITE — V27 (GOVERNMENT / RESOURCES + NO ARTICLE DATES)
+KARATIN LLC — V28 GOVERNMENT CARD FIX + NEW RESOURCES ARTICLES
 
-WHAT CHANGED
-• Government: relocated the Data Before AI content and educational FAQ to Resources;
-  removed the redundant Knowledge Center teaser.
-• Solutions & Resources: preserved all 22 resource cards and search/filter functionality;
-  removed the visible "Updated August 2026" date label on each resource card.
-• All 22 linked Resources articles: removed the visible update date in each article's
-  header and sidebar. Retained the text, reading time, and categories.
+Upload all 9 website files to the ROOT of your GitHub Pages website repository.
+Replace existing government.html and solutions.html.
+The two new HTML articles and five new JPG photos must be added.
 
-GITHUB UPLOAD
-Extract this ZIP and upload ALL 24 HTML files from this folder directly to your
-published GitHub Pages repository root (same level as index.html). Replace existing
-files when asked. Keep original filenames. No image uploads needed.
+FILES:
+- government.html                     Existing page; fixes caption/icon overlap using clean photos
+- solutions.html                      Existing page; adds two searchable resource cards (22 -> 24)
+- data-classification-labeling-use-cases.html     New article
+- classification-labeling-dlp-use-cases.html     New article
+- karatin-gov-card-training-v28.jpg   New photo
+- karatin-gov-card-staffing-v28.jpg    New photo
+- karatin-gov-card-ai-v28.jpg          New photo
+- karatin-gov-card-protection-v28.jpg  New photo
+- karatin-gov-card-compliance-v28.jpg  New photo
 
-Start with government.html and solutions.html, then upload the other 22 article .html
-files. Commit the change and wait for GitHub Pages deployment to complete.
+Do not put these in a new subfolder: the image references expect the files at website ROOT.
+Commit changes and wait for the GitHub Pages deployment to succeed.
+Then review:
+https://karatinllc.com/government.html?v=28
+https://karatinllc.com/solutions.html#resources
+https://karatinllc.com/data-classification-labeling-use-cases.html
+https://karatinllc.com/classification-labeling-dlp-use-cases.html
 
-CHECK
-https://karatinllc.com/government.html?v=27
-https://karatinllc.com/solutions.html?v=27#resources
-Then open one of the linked articles in a private/incognito tab to verify the date
-is absent on that page as well.
-
-UNCHANGED
-Homepage, navigation, Contact page, Request Talent form, all document PDFs,
-Capability Statement, Capability Briefing, Introduction Letter, and service pages.
-This ZIP has NOT been published to your live website.
+Scope of changes: no Capability Statement or other website files modified.
+All new articles omit publication dates.
