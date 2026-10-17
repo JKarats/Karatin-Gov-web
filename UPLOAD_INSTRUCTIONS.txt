@@ -1,7 +1,8 @@
-Karatin LLC — Contact page wording correction (V25)
+Karatin Request Talent form update V26
 
-Replace the existing contact.html in the website repository root with this one file.
+Upload request-talent.html to the root of your GitHub Pages repository, replacing only the existing request-talent.html.
 
-Change: “Whether you’re looking for…” → “If you are looking for…”
+Change: added Other after Training & Enablement under Service requested.
+The existing required Roles, skills, or training topics needed textbox lets the requester describe any other service.
 
-All other wording, layout, photo references, request talent section, form, and site navigation remain unchanged.
+No other website files or Capability Statement were changed.
