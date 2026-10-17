@@ -1,28 +1,9 @@
-KARATIN GOVERNMENT PAGE - DIRECT CAPABILITY LINKS V23
+Karatin Contact Page V24 - Two-file upload
 
-WHAT TO UPLOAD
-* Upload ONLY government.html to the ROOT of your published GitHub Pages repository (same folder as index.html).
-* Replace the existing government.html and commit the change.
-* Do NOT upload or replace solutions.html, documents.html, images, or any PDF.
+Upload directly to the GitHub Pages repository root:
+1. contact.html (replace existing)
+2. karatin-contact-consultation-v24.jpg (new image)
 
-CHECK THAT YOUR UPDATE IS LIVE
-1. Wait for the GitHub Pages deployment to finish (Actions > Pages build and deployment).
-2. Open https://karatinllc.com/government.html?v=23 in a private/incognito tab.
-3. Scroll to Our Capabilities. The links should now say:
-   - Explore training programs
-   - Explore government staffing
-   - Explore secure AI services
-   - Explore data protection
-   - Explore compliance services
-4. Hover or right-click a link. None should point to solutions.html#solutions.
-5. If the page still says Learn More, the updated government.html was not published from the active Pages source/branch, or a cached page is shown. Verify Settings > Pages deployment source and file location.
+Only Contact page content is changed. No global CSS, JS, other site pages, forms, or Capability Statement are modified.
 
-CHANGES: Five link labels plus a diagnostic HTML metadata tag.
-The V21 Capitol image, hero, CAGE/UEI, nav, other sections and Capability Statement remain untouched.
-
-TARGET FILES MUST EXIST IN YOUR REPO
-training-enablement.html
-government-staffing.html
-secure-ai-adoption.html
-data-protection.html
-compliance-readiness.html
+Check https://karatinllc.com/contact.html?v=24 after GitHub Pages deploy completes.
