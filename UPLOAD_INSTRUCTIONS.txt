@@ -1,9 +1,9 @@
-Karatin Contact Page V24 - Two-file upload
+Karatin Contact Page — V25 updated approved wording
 
-Upload directly to the GitHub Pages repository root:
-1. contact.html (replace existing)
-2. karatin-contact-consultation-v24.jpg (new image)
+Upload contact.html to the GitHub Pages publishing folder (normally the repository root) and replace the existing contact.html.
 
-Only Contact page content is changed. No global CSS, JS, other site pages, forms, or Capability Statement are modified.
+No other file is needed if the V24 consultation photograph (karatin-contact-consultation-v24.jpg) is already live in the same folder.
 
-Check https://karatinllc.com/contact.html?v=24 after GitHub Pages deploy completes.
+This update changes ONLY the Contact page hero headline and paragraph. It does not change the image, navigation, contact form, Request Talent banner, or Capability Statement.
+
+After GitHub Pages deploys, open https://karatinllc.com/contact.html?v=25final in a new tab and confirm the headline “Let’s Build What’s Next. Together.” is visible.
