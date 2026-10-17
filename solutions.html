@@ -194,7 +194,9 @@
 @media(max-width:780px){.resource-education,.resource-education-faq{padding:45px 0;}.resource-education-grid{grid-template-columns:1fr;gap:26px}.resource-education-faq-grid{grid-template-columns:1fr}.resource-education-actions article{padding:17px}.resource-education-faq-grid article{padding:20px}}
 @media(max-width:440px){.resource-education-actions{grid-template-columns:1fr}.resource-education h2,.resource-education-faq h2{font-size:clamp(1.7rem,8vw,2.15rem)}.resource-education-link{width:100%;justify-content:center;}}
 </style>
-</head>
+<style id="karatin-v31-resource-topic-picker">
+.resource-topic-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:24px 0 28px}.resource-topic-picker a{display:block;border:1px solid #d5dee9;border-left:4px solid #d4aa45;color:#09233e;background:#fff;text-decoration:none;padding:18px;font-weight:800;box-shadow:0 6px 14px rgba(10,27,51,.045)}.resource-topic-picker a:hover{border-color:#bc9943;background:#fafbfd}.resource-topic-picker a span{display:block;color:#51657b;font-size:.83rem;line-height:1.45;font-weight:500;margin-top:7px}@media(max-width:850px){.resource-topic-picker{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:570px){.resource-topic-picker{grid-template-columns:1fr}}
+</style></head>
 <body>
 <header class="site-header">
 <div class="container nav-wrap">
@@ -295,23 +297,23 @@
 </div>
 </div>
 </section>
-<section class="section resource-search-section" id="resources" aria-labelledby="resources-title">
+<section aria-labelledby="resources-title" class="section resource-search-section" id="resources">
 <div class="container">
 <div class="resource-library-heading">
-  <p class="eyebrow">Resources &amp; Insights</p>
-  <h2 id="resources-title">Explore the Knowledge Center</h2>
-  <p>Browse practical articles on data security, data classification, DLP, data governance, responsible AI, and related business topics.</p>
-</div>
+<p class="eyebrow">Resources &amp; Insights</p>
+<h2 id="resources-title">Explore the Knowledge Center</h2>
+<p>Browse practical articles on data security, data classification, DLP, data governance, responsible AI, and related business topics.</p>
+</div><div aria-label="Browse articles by topic" class="resource-topic-picker"><a href="resources-data-security.html">Data Security<span>6 curated articles and guides</span></a><a href="resources-data-classification.html">Data Classification<span>4 curated articles and guides</span></a><a href="resources-dlp-labeling.html">DLP &amp; Labeling<span>5 curated articles and guides</span></a><a href="resources-ai-data-governance.html">AI &amp; Data Governance<span>6 curated articles and guides</span></a><a href="resources-responsible-ai.html">Responsible AI<span>6 curated articles and guides</span></a></div>
 <div class="search-panel reveal">
 <label for="resourceSearch">Search the Knowledge Center</label>
 <div class="search-box">
 <input id="resourceSearch" placeholder="Search data classification, DLP, data governance, AI readiness, privacy, staffing..." type="search"/>
 <button id="searchButton" type="button">Search</button>
 </div>
-<p aria-live="polite" id="searchStatus">24 resources available</p>
+<p aria-live="polite" id="searchStatus">26 resources available</p>
 </div>
 <div class="filter-row reveal"><button class="filter-btn active" data-filter="all">All Resources</button><button class="filter-btn" data-filter="data-security">Data Security</button><button class="filter-btn" data-filter="classification">Data Classification</button><button class="filter-btn" data-filter="data-governance">Data Governance</button><button class="filter-btn" data-filter="responsible-ai">Responsible AI</button><button class="filter-btn" data-filter="business">Business &amp; Teaming</button></div>
-<div class="knowledge-grid" id="resourceGrid">
+<div class="knowledge-grid" id="resourceGrid"><article class="knowledge-card reveal" data-category="data-security" data-summary="six practical use cases for discovering sensitive information, excessive access, risky sharing, and unmanaged data across technology environments." data-title="data security posture management: six problems hidden in plain sight"><div class="knowledge-meta"><span>Data Security</span><span>9 min</span></div><h3>Data Security Posture Management: Six Problems Hidden in Plain Sight</h3><p>Six practical use cases for discovering sensitive information, excessive access, risky sharing, and unmanaged data across technology environments.</p><a href="data-security-posture-use-cases.html">Read article →</a></article><article class="knowledge-card reveal" data-category="data-governance" data-summary="how data owners, quality checks, access rules, lineage, and retention make ai-enabled processes more reliable and accountable." data-title="data governance for ai: ownership, quality and access in practice"><div class="knowledge-meta"><span>AI &amp; Data Governance</span><span>9 min</span></div><h3>Data Governance for AI: Ownership, Quality and Access in Practice</h3><p>How data owners, quality checks, access rules, lineage, and retention make AI-enabled processes more reliable and accountable.</p><a href="data-governance-ai-use-cases.html">Read article →</a></article>
 <article class="knowledge-card reveal" data-category="classification" data-summary="how to classify information, design labels, establish ownership, and use consistent labels to support dlp and responsible ai." data-title="data classification &amp; labeling: a practical foundation for protection">
 <div class="knowledge-meta"><span>Data Classification</span><span>8 min</span></div>
 <h3>Data Classification &amp; Labeling: A Practical Foundation for Protection</h3>
@@ -477,11 +479,7 @@
 </div>
 <div>
 <h3>Resources</h3>
-
-
-
-
-<a href="enterprise-data-security-readiness-checklist.html">Data Security</a><a href="data-classification-labeling-use-cases.html">Data Classification</a><a href="classification-labeling-dlp-use-cases.html">DLP &amp; Labeling</a><a href="ai-governance-operating-model.html">AI &amp; Data Governance</a><a href="ai-risk-assessment-checklist.html">Responsible AI</a></div>
+<a href="resources-data-security.html">Data Security</a><a href="resources-data-classification.html">Data Classification</a><a href="resources-dlp-labeling.html">DLP &amp; Labeling</a><a href="resources-ai-data-governance.html">AI &amp; Data Governance</a><a href="resources-responsible-ai.html">Responsible AI</a></div>
 <div>
 <h3>Contact</h3>
 <a href="mailto:info@KaratinLLC.com">info@KaratinLLC.com</a>

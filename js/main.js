@@ -32,36 +32,26 @@ document.querySelectorAll('.counter').forEach(counter=>{
   tick();
 });
 
-/* Karatin V29: Resources footer links point directly to articles.
-   Applies to pages that load the shared js/main.js; leaves all other footer groups intact. */
+/* Karatin V31: Each Resources footer link opens a curated group of articles,
+   not a checklist or a single resource. Works on any page loading shared main.js. */
 (() => {
-  const articles = [
-    ['Data Security', 'enterprise-data-security-readiness-checklist.html'],
-    ['Data Classification', 'data-classification-labeling-use-cases.html'],
-    ['DLP & Labeling', 'classification-labeling-dlp-use-cases.html'],
-    ['AI & Data Governance', 'ai-governance-operating-model.html'],
-    ['Responsible AI', 'ai-risk-assessment-checklist.html']
-  ];
-
+  const topics = [["Data Security", "resources-data-security.html"], ["Data Classification", "resources-data-classification.html"], ["DLP & Labeling", "resources-dlp-labeling.html"], ["AI & Data Governance", "resources-ai-data-governance.html"], ["Responsible AI", "resources-responsible-ai.html"]];
   document.querySelectorAll('footer').forEach(footer => {
-    // Keep the brand promise broad; Karatin is not limited to Microsoft products.
     footer.querySelectorAll('.footer-brand p').forEach(tagline => {
       if (/Microsoft expertise/i.test(tagline.textContent)) {
-        tagline.textContent = tagline.textContent
-          .replace(/Microsoft expertise\.?\s*/i, '')
-          .trim();
+        tagline.textContent = tagline.textContent.replace(/Microsoft expertise\.?\s*/i, '').trim();
       }
     });
-    footer.querySelectorAll('h2, h3, h4').forEach(heading => {
+    footer.querySelectorAll('h2,h3,h4').forEach(heading => {
       if (heading.textContent.trim().toLowerCase() !== 'resources') return;
-      const section = heading.parentElement;
-      if (!section) return;
-      section.querySelectorAll('a').forEach(link => link.remove());
-      articles.forEach(([label, href]) => {
+      const parent = heading.parentElement;
+      if (!parent) return;
+      parent.querySelectorAll('a').forEach(link => link.remove());
+      topics.forEach(([label, url]) => {
         const link = document.createElement('a');
-        link.href = href;
+        link.href = url;
         link.textContent = label;
-        section.appendChild(link);
+        parent.appendChild(link);
       });
     });
   });

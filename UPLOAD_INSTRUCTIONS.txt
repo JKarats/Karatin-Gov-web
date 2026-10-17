@@ -1,23 +1,24 @@
-KARATIN — RESOURCES V30 (VENDOR-NEUTRAL)
+KARATIN V31 — COMPLETE RESOURCES COLLECTIONS FIX
 
-This update changes Resources pages, related article URLs, the resource filters/search, the Resources deep link (#resources), and shared footer article links.
+This is the self-contained Resources content update built on V30, including all 26 articles (24 prior + 2 new), 5 topic pages, and 8 backwards-compatible redirects.
 
-Upload ALL the files from this ZIP to the same locations in the published GitHub Pages repository.
-- solutions.html goes in the root (replace existing)
-- 24 updated/new vendor-neutral articles go in the root
-- 8 legacy URLs are lightweight redirects and must also go in the root, replacing their old names
-- js/main.js and js/resources-search.js go inside the existing js folder (replace existing).
+The Resources footer topics now open CURATED READING PAGES, each containing 4 to 6 full articles with relevant use cases—not a single readiness checklist. These work by direct HTML links, and the shared js/main.js updates the footer on other website pages too.
 
-DO NOT delete any existing images, CSS, forms, Government Documents, or other pages.
+UPLOAD:
+1. Extract the ZIP.
+2. Upload all .html files directly to the PUBLISHED WEBSITE REPOSITORY ROOT (replacing same-named files).
+3. Open the ZIP's js/ folder and upload main.js and resources-search.js into your site's existing js/ folder (replacing same-named files).
+4. DO NOT upload the UPLOAD_INSTRUCTIONS.txt file; it is only for your reference.
+5. Commit all changes, wait until GitHub Pages deployment succeeds, then check the links below in a private browser window.
 
-The original URLs continue to work through the included redirect pages.
-Government page, homepage, documents, and capability statement are NOT part of this ZIP.
+DO NOT DELETE your CSS, images, other service pages, forms, or Government Documents. No homepage, Government page, Contact page, Capability Statement, or branding files are modified in this package.
 
-IMPORTANT: The Resources link now jumps DIRECTLY to the Knowledge Center article index, not the capabilities overview.
-
-Check after publishing:
+VERIFY:
+https://karatinllc.com/resources-data-security.html
+https://karatinllc.com/resources-data-classification.html
+https://karatinllc.com/resources-dlp-labeling.html
+https://karatinllc.com/resources-ai-data-governance.html
+https://karatinllc.com/resources-responsible-ai.html
 https://karatinllc.com/solutions.html#resources
-https://karatinllc.com/enterprise-data-security-readiness-checklist.html
-https://karatinllc.com/preparing-enterprise-data-for-ai.html
 
-Note: vendor-neutral articles discuss capabilities rather than implying all platforms have identical features.
+Each footer Resources topic should open a topic landing page. Clicking Read article should open its own full-length article. The main Knowledge Center contains 26 articles and links to each topic.
