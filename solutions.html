@@ -172,6 +172,27 @@
 @media(min-width:751px) and (max-width:1100px){.merged-solution-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:440px){.sol-v19-hero-grid{padding-block:22px 28px}.sol-v19-hero h1{font-size:2.1rem}.sol-v19-copy>p:not(.sol-v19-eyebrow){font-size:.97rem;line-height:1.56}.sol-v19-hero-photo img{max-height:270px}#solutions .section-heading h2{font-size:1.75rem!important}}
 </style>
+<style id="karatin-resources-relocation-v27">
+/* Educational content relocated from Government to the existing Solutions & Resources page. */
+.resource-education {background:#f5f7fa;padding:58px 0 62px;}
+.resource-education-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(26px,5vw,64px);align-items:center;}
+.resource-education .eyebrow,.resource-education-faq .eyebrow{font:800 .77rem/1.4 Inter,Arial,sans-serif;letter-spacing:.13em;color:#a4771e;text-transform:uppercase;margin:0 0 14px;}
+.resource-education h2,.resource-education-faq h2{font:800 clamp(1.85rem,2.75vw,2.85rem)/1.17 Merriweather,Georgia,serif;color:#071b32;margin:0 0 17px;letter-spacing:-.025em;}
+.resource-education-intro>p:not(.eyebrow){font-size:1rem;line-height:1.75;color:#536477;max-width:640px;margin:0 0 22px;}
+.resource-education-link{display:inline-flex;align-items:center;min-height:44px;background:#d8b04b;color:#071b32!important;border-radius:4px;padding:12px 20px;text-decoration:none;font-weight:800;font-size:.95rem;}
+.resource-education-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;}
+.resource-education-actions article{border:1px solid #dce4ee;border-top:3px solid #d3a742;background:#fff;padding:20px 17px;min-width:0;}
+.resource-education-actions strong{display:block;color:#0c2744;font-size:1.02rem;line-height:1.3;margin-bottom:9px;}
+.resource-education-actions p{color:#5d6e82;font-size:.92rem;line-height:1.55;margin:0;}
+.resource-education-faq{background:#fff;padding:56px 0 54px;}
+.resource-education-faq .section-heading h2{max-width:880px;margin:0 0 26px;}
+.resource-education-faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.resource-education-faq-grid article{min-width:0;border:1px solid #e0e7ee;border-radius:5px;background:#f8fafc;padding:23px;}
+.resource-education-faq-grid h3{margin:0 0 10px;font-size:1.08rem;line-height:1.3;color:#0b233f;}
+.resource-education-faq-grid p{margin:0;font-size:.95rem;line-height:1.68;color:#596b7e;}
+@media(max-width:780px){.resource-education,.resource-education-faq{padding:45px 0;}.resource-education-grid{grid-template-columns:1fr;gap:26px}.resource-education-faq-grid{grid-template-columns:1fr}.resource-education-actions article{padding:17px}.resource-education-faq-grid article{padding:20px}}
+@media(max-width:440px){.resource-education-actions{grid-template-columns:1fr}.resource-education h2,.resource-education-faq h2{font-size:clamp(1.7rem,8vw,2.15rem)}.resource-education-link{width:100%;justify-content:center;}}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -249,6 +270,40 @@
 </section>
 
 <div id="resources"></div>
+<section class="section resource-education" id="data-before-ai" aria-labelledby="resource-ai-title">
+  <div class="container">
+    <div class="resource-education-grid">
+      <div class="resource-education-intro">
+        <p class="eyebrow">Resources &amp; Guidance · Data Before AI</p>
+        <h2 id="resource-ai-title">Protect sensitive information before AI expands access.</h2>
+        <p>Karatin helps organizations identify sensitive data, reduce oversharing, strengthen information protection, and establish practical governance before scaling AI.</p>
+        <a class="resource-education-link" href="secure-ai-adoption.html">Explore secure AI adoption →</a>
+      </div>
+      <div class="resource-education-actions" aria-label="Data readiness focus areas">
+        <article><strong>Discover &amp; Classify</strong><p>Understand what sensitive information exists and where it lives.</p></article>
+        <article><strong>Protect &amp; Govern</strong><p>Apply practical data protection, privacy, retention, and access controls.</p></article>
+        <article><strong>Adopt AI Responsibly</strong><p>Reduce exposure and create guardrails before AI expands access.</p></article>
+        <article><strong>Enable People</strong><p>Build sustainable practices through role-based training and knowledge transfer.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section resource-education-faq" id="karatin-aeo-faq" aria-labelledby="resource-faq-title">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Common Questions</p>
+      <h2 id="resource-faq-title">How Karatin helps organizations protect data and adopt AI responsibly.</h2>
+    </div>
+    <div class="resource-education-faq-grid">
+      <article><h3>Who does Karatin LLC serve?</h3><p>Karatin supports federal agencies, state and local governments, educational institutions, prime contractors, and commercial organizations.</p></article>
+      <article><h3>What does Karatin help organizations protect?</h3><p>Karatin helps identify, classify, protect, and govern sensitive information while reducing inappropriate access, oversharing, data leakage, and compliance risk.</p></article>
+      <article><h3>How does Karatin support secure AI adoption?</h3><p>Karatin reviews data exposure, permissions, classification, governance, and responsible-use controls before AI expands access to organizational information.</p></article>
+      <article><h3>Does Karatin provide staffing and training?</h3><p>Yes. Karatin provides specialized professionals and practical role-based training alongside consulting, remediation, governance, and AI-readiness services.</p></article>
+    </div>
+  </div>
+</section>
+
 <section class="section resource-search-section">
   <div class="container">
     <div class="search-panel reveal">
@@ -265,154 +320,132 @@
   <div class="knowledge-meta"><span>AI Governance</span><span>8 min</span></div>
   <h3>Preparing Microsoft 365 for AI</h3>
   <p>Reduce oversharing and establish secure governance before Copilot adoption.</p>
-  <small>Updated August 2026</small>
   <a href="preparing-microsoft-365-for-ai.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="microsoft 365 security readiness checklist" data-summary="a structured review of identity, email protection, sharing, devices, and administrative controls." data-category="microsoft365">
   <div class="knowledge-meta"><span>Microsoft 365</span><span>6 min</span></div>
   <h3>Microsoft 365 Security Readiness Checklist</h3>
   <p>A structured review of identity, email protection, sharing, devices, and administrative controls.</p>
-  <small>Updated August 2026</small>
   <a href="microsoft-365-security-readiness-checklist.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="copilot data-protection architecture" data-summary="understand how identity, permissions, labels, dlp, retention, and auditing work together." data-category="ai">
   <div class="knowledge-meta"><span>AI Governance</span><span>7 min</span></div>
   <h3>Copilot Data-Protection Architecture</h3>
   <p>Understand how identity, permissions, labels, DLP, retention, and auditing work together.</p>
-  <small>Updated August 2026</small>
   <a href="copilot-data-protection-architecture.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="exchange online health check" data-summary="review mail flow, authentication, transport rules, security, and operational readiness." data-category="microsoft365">
   <div class="knowledge-meta"><span>Microsoft 365</span><span>6 min</span></div>
   <h3>Exchange Online Health Check</h3>
   <p>Review mail flow, authentication, transport rules, security, and operational readiness.</p>
-  <small>Updated August 2026</small>
   <a href="exchange-online-health-check.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="sharepoint governance basics" data-summary="create ownership, access, lifecycle, and information-management rules for sharepoint." data-category="microsoft365">
   <div class="knowledge-meta"><span>Microsoft 365</span><span>5 min</span></div>
   <h3>SharePoint Governance Basics</h3>
   <p>Create ownership, access, lifecycle, and information-management rules for SharePoint.</p>
-  <small>Updated August 2026</small>
   <a href="sharepoint-governance-basics.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="teams security and governance" data-summary="control team creation, guests, apps, meetings, data sharing, and lifecycle." data-category="microsoft365">
   <div class="knowledge-meta"><span>Microsoft 365</span><span>5 min</span></div>
   <h3>Teams Security and Governance</h3>
   <p>Control team creation, guests, apps, meetings, data sharing, and lifecycle.</p>
-  <small>Updated August 2026</small>
   <a href="teams-security-governance.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="purview dlp policy design" data-summary="design dlp policies around business risk, user behavior, and measurable outcomes." data-category="purview">
   <div class="knowledge-meta"><span>Microsoft Purview</span><span>7 min</span></div>
   <h3>Purview DLP Policy Design</h3>
   <p>Design DLP policies around business risk, user behavior, and measurable outcomes.</p>
-  <small>Updated August 2026</small>
   <a href="purview-dlp-policy-design.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="retention and records readiness" data-summary="align retention controls with legal, operational, and records obligations." data-category="purview">
   <div class="knowledge-meta"><span>Microsoft Purview</span><span>6 min</span></div>
   <h3>Retention and Records Readiness</h3>
   <p>Align retention controls with legal, operational, and records obligations.</p>
-  <small>Updated August 2026</small>
   <a href="retention-records-readiness.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="ediscovery investigation preparation" data-summary="prepare roles, preservation, search, review, audit access, and investigation ownership." data-category="purview">
   <div class="knowledge-meta"><span>Microsoft Purview</span><span>6 min</span></div>
   <h3>eDiscovery Investigation Preparation</h3>
   <p>Prepare roles, preservation, search, review, audit access, and investigation ownership.</p>
-  <small>Updated August 2026</small>
   <a href="ediscovery-investigation-preparation.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="information protection label strategy" data-summary="build a sensitivity-label structure users can understand and consistently apply." data-category="purview">
   <div class="knowledge-meta"><span>Microsoft Purview</span><span>6 min</span></div>
   <h3>Information Protection Label Strategy</h3>
   <p>Build a sensitivity-label structure users can understand and consistently apply.</p>
-  <small>Updated August 2026</small>
   <a href="information-protection-label-strategy.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="insider risk program foundations" data-summary="establish governance, privacy, indicators, investigation, and remediation processes." data-category="purview">
   <div class="knowledge-meta"><span>Microsoft Purview</span><span>6 min</span></div>
   <h3>Insider Risk Program Foundations</h3>
   <p>Establish governance, privacy, indicators, investigation, and remediation processes.</p>
-  <small>Updated August 2026</small>
   <a href="insider-risk-program-foundations.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="ai governance operating model" data-summary="define decision rights, controls, risk review, ownership, and operational accountability." data-category="ai">
   <div class="knowledge-meta"><span>AI Governance</span><span>7 min</span></div>
   <h3>AI Governance Operating Model</h3>
   <p>Define decision rights, controls, risk review, ownership, and operational accountability.</p>
-  <small>Updated August 2026</small>
   <a href="ai-governance-operating-model.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="ai risk assessment checklist" data-summary="evaluate data, security, privacy, legal, operational, and human-impact risks." data-category="ai">
   <div class="knowledge-meta"><span>AI Governance</span><span>5 min</span></div>
   <h3>AI Risk Assessment Checklist</h3>
   <p>Evaluate data, security, privacy, legal, operational, and human-impact risks.</p>
-  <small>Updated August 2026</small>
   <a href="ai-risk-assessment-checklist.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="how to reduce oversharing before copilot" data-summary="prioritize broad access, inactive workspaces, external sharing, and sensitive repositories." data-category="ai">
   <div class="knowledge-meta"><span>AI Governance</span><span>6 min</span></div>
   <h3>How to Reduce Oversharing Before Copilot</h3>
   <p>Prioritize broad access, inactive workspaces, external sharing, and sensitive repositories.</p>
-  <small>Updated August 2026</small>
   <a href="reduce-oversharing-before-copilot.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="identity and zero trust basics" data-summary="strengthen identity assurance, least privilege, device trust, and continuous verification." data-category="cybersecurity">
   <div class="knowledge-meta"><span>Cybersecurity</span><span>6 min</span></div>
   <h3>Identity and Zero Trust Basics</h3>
   <p>Strengthen identity assurance, least privilege, device trust, and continuous verification.</p>
-  <small>Updated August 2026</small>
   <a href="identity-zero-trust-basics.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="email security baseline" data-summary="create a practical baseline for anti-phishing, authentication, links, attachments, and response." data-category="cybersecurity">
   <div class="knowledge-meta"><span>Cybersecurity</span><span>5 min</span></div>
   <h3>Email Security Baseline</h3>
   <p>Create a practical baseline for anti-phishing, authentication, links, attachments, and response.</p>
-  <small>Updated August 2026</small>
   <a href="email-security-baseline.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="secure collaboration checklist" data-summary="review guest access, external sharing, meetings, files, apps, and lifecycle controls." data-category="cybersecurity">
   <div class="knowledge-meta"><span>Cybersecurity</span><span>5 min</span></div>
   <h3>Secure Collaboration Checklist</h3>
   <p>Review guest access, external sharing, meetings, files, apps, and lifecycle controls.</p>
-  <small>Updated August 2026</small>
   <a href="secure-collaboration-checklist.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="evaluating a small-business it partner" data-summary="assess expertise, delivery approach, communication, risk controls, and scalability." data-category="govcon">
   <div class="knowledge-meta"><span>Government Contracting</span><span>5 min</span></div>
   <h3>Evaluating a Small-Business IT Partner</h3>
   <p>Assess expertise, delivery approach, communication, risk controls, and scalability.</p>
-  <small>Updated August 2026</small>
   <a href="evaluating-small-business-it-partner.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="how to prepare for a capability briefing" data-summary="structure a focused discussion around mission needs, capability, proof, and next steps." data-category="govcon">
   <div class="knowledge-meta"><span>Government Contracting</span><span>5 min</span></div>
   <h3>How to Prepare for a Capability Briefing</h3>
   <p>Structure a focused discussion around mission needs, capability, proof, and next steps.</p>
-  <small>Updated August 2026</small>
   <a href="capability-briefing-preparation.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="prime contractor teaming checklist" data-summary="assess technical fit, responsiveness, documentation, risk, and opportunity alignment." data-category="govcon">
   <div class="knowledge-meta"><span>Government Contracting</span><span>5 min</span></div>
   <h3>Prime Contractor Teaming Checklist</h3>
   <p>Assess technical fit, responsiveness, documentation, risk, and opportunity alignment.</p>
-  <small>Updated August 2026</small>
   <a href="prime-contractor-teaming-checklist.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="how to build a strong capability statement" data-summary="create a concise document that communicates relevance, proof, and contracting data." data-category="govcon">
   <div class="knowledge-meta"><span>Government Contracting</span><span>6 min</span></div>
   <h3>How to Build a Strong Capability Statement</h3>
   <p>Create a concise document that communicates relevance, proof, and contracting data.</p>
-  <small>Updated August 2026</small>
   <a href="strong-capability-statement.html">Read article →</a>
 </article>
 <article class="knowledge-card reveal" data-title="sources sought response basics" data-summary="respond with evidence, acquisition insight, capacity, and relevant technical feedback." data-category="govcon">
   <div class="knowledge-meta"><span>Government Contracting</span><span>6 min</span></div>
   <h3>Sources Sought Response Basics</h3>
   <p>Respond with evidence, acquisition insight, capacity, and relevant technical feedback.</p>
-  <small>Updated August 2026</small>
   <a href="sources-sought-response-basics.html">Read article →</a>
 </article></div>
     <div id="noResults" class="no-results" hidden>
