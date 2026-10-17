@@ -1,18 +1,7 @@
-Karatin Solutions & Resources — V19 (approved banner image)
+Karatin Government Hero Update V20
 
-Use this package INSTEAD of the earlier V19 ZIP. The only website change from V19 is replacing the Government Solutions banner with the newly approved professional team image. The image has a NEW filename to avoid cache issues.
+Upload only government.html to the root of your GitHub Pages repository; replace the existing government.html.
 
-Upload the following eight files DIRECTLY to your GitHub repository ROOT (not inside a folder):
+Changes: Hero eyebrow, headline, and descriptive paragraph now lead with government staffing and mission support. Removed Explore Solutions and Book a Consultation buttons from hero. Kept Government Documents as the only hero button.
 
-  solutions.html  (replace existing)
-  secure-ai-adoption.html
-  data-protection.html
-  compliance-readiness.html
-  karatin-solutions-banner-v19-approved.jpg  (NEW approved photo)
-  karatin-ai-adoption-v19.jpg
-  karatin-data-protection-v19.jpg
-  karatin-compliance-v19.jpg
-
-The five capability cards and their destinations remain unchanged, as do the original 22 Knowledge Center resources, homepage, five-link navigation, document links, and Capability Statement.
-
-After committing, allow GitHub Pages to publish. Then check https://karatinllc.com/solutions.html?v=19-approved on desktop and mobile.
+Unchanged: Capitol photo file hero-capitol-clean.jpg, all page sections below hero, navigation, government documents, footer, services, and Capability Statement.
