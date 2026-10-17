@@ -1,27 +1,23 @@
-KARATIN LLC — V28 GOVERNMENT CARD FIX + NEW RESOURCES ARTICLES
+KARATIN WEBSITE FOOTER UPDATE — V29
 
-Upload all 9 website files to the ROOT of your GitHub Pages website repository.
-Replace existing government.html and solutions.html.
-The two new HTML articles and five new JPG photos must be added.
+This package updates the shared site script only. It does not overwrite any existing HTML, images, forms, articles, or documents.
 
-FILES:
-- government.html                     Existing page; fixes caption/icon overlap using clean photos
-- solutions.html                      Existing page; adds two searchable resource cards (22 -> 24)
-- data-classification-labeling-use-cases.html     New article
-- classification-labeling-dlp-use-cases.html     New article
-- karatin-gov-card-training-v28.jpg   New photo
-- karatin-gov-card-staffing-v28.jpg    New photo
-- karatin-gov-card-ai-v28.jpg          New photo
-- karatin-gov-card-protection-v28.jpg  New photo
-- karatin-gov-card-compliance-v28.jpg  New photo
+1. Extract the ZIP.
+2. In the same GitHub repository/folder from which karatinllc.com is published, open the js folder.
+3. Replace existing file js/main.js with the supplied js/main.js.
+4. Commit changes and wait for the GitHub Pages deployment to finish.
+5. Open https://karatinllc.com/government.html?v=29 in a new/private browser window and scroll to the footer.
+6. Check one of the direct article links (e.g., Data Classification).
 
-Do not put these in a new subfolder: the image references expect the files at website ROOT.
-Commit changes and wait for the GitHub Pages deployment to succeed.
-Then review:
-https://karatinllc.com/government.html?v=28
-https://karatinllc.com/solutions.html#resources
-https://karatinllc.com/data-classification-labeling-use-cases.html
-https://karatinllc.com/classification-labeling-dlp-use-cases.html
+RESULT:
+- Resources footer links go directly to these existing article pages:
+  Data Security => microsoft-365-security-readiness-checklist.html
+  Data Classification => data-classification-labeling-use-cases.html
+  DLP & Labeling => classification-labeling-dlp-use-cases.html
+  AI & Data Governance => ai-governance-operating-model.html
+  Responsible AI => ai-risk-assessment-checklist.html
+- Removes 'Microsoft expertise.' from the footer tagline, retaining 'Mission-focused outcomes.'
 
-Scope of changes: no Capability Statement or other website files modified.
-All new articles omit publication dates.
+IMPORTANT: The two newer Data Classification and DLP articles must already be published from V28. If not, upload those HTML files from the V28 package as well.
+
+All other page content and the Capability Statement remain unchanged.
