@@ -196,7 +196,17 @@
 </style>
 <style id="karatin-v31-resource-topic-picker">
 .resource-topic-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:24px 0 28px}.resource-topic-picker a{display:block;border:1px solid #d5dee9;border-left:4px solid #d4aa45;color:#09233e;background:#fff;text-decoration:none;padding:18px;font-weight:800;box-shadow:0 6px 14px rgba(10,27,51,.045)}.resource-topic-picker a:hover{border-color:#bc9943;background:#fafbfd}.resource-topic-picker a span{display:block;color:#51657b;font-size:.83rem;line-height:1.45;font-weight:500;margin-top:7px}@media(max-width:850px){.resource-topic-picker{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:570px){.resource-topic-picker{grid-template-columns:1fr}}
-</style></head>
+</style>
+<style id="karatin-v36-small-phone-search-fix">
+/* Keep form controls within the grid at 320px without masking overflow. */
+@media (max-width: 390px) {
+  #resources .search-panel, #resources .search-box { width:100%; max-width:100%; min-width:0; }
+  #resources .search-box { grid-template-columns:minmax(0,1fr); }
+  #resources .search-box input,
+  #resources .search-box button { box-sizing:border-box; width:100%; max-width:100%; min-width:0; }
+}
+</style>
+</head>
 <body>
 <header class="site-header">
 <div class="container nav-wrap">

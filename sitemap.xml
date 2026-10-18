@@ -1,12 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://karatinllc.com/</loc></url>
-  <url><loc>https://karatinllc.com/government.html</loc></url>
-  <url><loc>https://karatinllc.com/documents.html</loc></url>
-  <url><loc>https://karatinllc.com/capability-statement.html</loc></url>
+  <url><loc>https://karatinllc.com/accessibility.html</loc></url>
+  <url><loc>https://karatinllc.com/ai-assistant-data-protection-architecture.html</loc></url>
+  <url><loc>https://karatinllc.com/ai-governance-operating-model.html</loc></url>
+  <url><loc>https://karatinllc.com/ai-risk-assessment-checklist.html</loc></url>
+  <url><loc>https://karatinllc.com/capability-briefing-preparation.html</loc></url>
   <url><loc>https://karatinllc.com/capability-briefing.html</loc></url>
-  <url><loc>https://karatinllc.com/introduction-letter.html</loc></url>
-  <url><loc>https://karatinllc.com/teaming.html</loc></url>
+  <url><loc>https://karatinllc.com/capability-statement.html</loc></url>
+  <url><loc>https://karatinllc.com/classification-labeling-dlp-use-cases.html</loc></url>
+  <url><loc>https://karatinllc.com/collaboration-platform-security-governance.html</loc></url>
+  <url><loc>https://karatinllc.com/commercial-staffing.html</loc></url>
+  <url><loc>https://karatinllc.com/compliance-readiness.html</loc></url>
   <url><loc>https://karatinllc.com/contact.html</loc></url>
+  <url><loc>https://karatinllc.com/data-classification-labeling-use-cases.html</loc></url>
+  <url><loc>https://karatinllc.com/data-governance-ai-use-cases.html</loc></url>
+  <url><loc>https://karatinllc.com/data-protection.html</loc></url>
+  <url><loc>https://karatinllc.com/data-security-posture-use-cases.html</loc></url>
+  <url><loc>https://karatinllc.com/document-repository-governance-basics.html</loc></url>
+  <url><loc>https://karatinllc.com/documents.html</loc></url>
+  <url><loc>https://karatinllc.com/ediscovery-investigation-preparation.html</loc></url>
+  <url><loc>https://karatinllc.com/eeo.html</loc></url>
+  <url><loc>https://karatinllc.com/email-security-baseline.html</loc></url>
+  <url><loc>https://karatinllc.com/enterprise-data-security-readiness-checklist.html</loc></url>
+  <url><loc>https://karatinllc.com/enterprise-email-security-health-check.html</loc></url>
+  <url><loc>https://karatinllc.com/evaluating-small-business-it-partner.html</loc></url>
+  <url><loc>https://karatinllc.com/government-staffing.html</loc></url>
+  <url><loc>https://karatinllc.com/government.html</loc></url>
+  <url><loc>https://karatinllc.com/identity-zero-trust-basics.html</loc></url>
+  <url><loc>https://karatinllc.com/information-protection-label-strategy.html</loc></url>
+  <url><loc>https://karatinllc.com/insider-risk-program-foundations.html</loc></url>
+  <url><loc>https://karatinllc.com/introduction-letter.html</loc></url>
+  <url><loc>https://karatinllc.com/it-staffing.html</loc></url>
+  <url><loc>https://karatinllc.com/preparing-enterprise-data-for-ai.html</loc></url>
+  <url><loc>https://karatinllc.com/prime-contractor-teaming-checklist.html</loc></url>
+  <url><loc>https://karatinllc.com/privacy.html</loc></url>
+  <url><loc>https://karatinllc.com/project-based-support.html</loc></url>
+  <url><loc>https://karatinllc.com/reduce-oversharing-before-ai-adoption.html</loc></url>
+  <url><loc>https://karatinllc.com/request-talent.html</loc></url>
+  <url><loc>https://karatinllc.com/resources-ai-data-governance.html</loc></url>
+  <url><loc>https://karatinllc.com/resources-data-classification.html</loc></url>
+  <url><loc>https://karatinllc.com/resources-data-security.html</loc></url>
+  <url><loc>https://karatinllc.com/resources-dlp-labeling.html</loc></url>
+  <url><loc>https://karatinllc.com/resources-responsible-ai.html</loc></url>
+  <url><loc>https://karatinllc.com/retention-records-readiness.html</loc></url>
+  <url><loc>https://karatinllc.com/risk-based-dlp-policy-design.html</loc></url>
+  <url><loc>https://karatinllc.com/secure-ai-adoption.html</loc></url>
+  <url><loc>https://karatinllc.com/secure-collaboration-checklist.html</loc></url>
   <url><loc>https://karatinllc.com/solutions.html</loc></url>
+  <url><loc>https://karatinllc.com/sources-sought-response-basics.html</loc></url>
+  <url><loc>https://karatinllc.com/strong-capability-statement.html</loc></url>
+  <url><loc>https://karatinllc.com/terms.html</loc></url>
+  <url><loc>https://karatinllc.com/training-enablement.html</loc></url>
 </urlset>
