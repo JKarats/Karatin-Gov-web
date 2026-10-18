@@ -1,7 +1,26 @@
-Karatin Homepage Government section wording-only fix (V34)
+KARATIN V35 — HOMEPAGE WORDING CORRECTIONS (SAFE PATCH)
 
-Upload index.html directly to the published root of your GitHub Pages repository, replacing the existing index.html. No other files need uploading.
+WHY THIS PACKAGE IS A PATCH INSTEAD OF A REPLACEMENT index.html:
+Your approved homepage uses the V18 hero design, but the archived index.html available for editing is an older V17 version. Uploading that older file would risk undoing your approved hero, layout and mobile optimizations. This V35 patch modifies your CURRENT homepage instead.
 
-This change only replaces the outdated paragraph beginning "The previous Karatin homepage" with professional Government Solutions copy. Hero image, responsive styles, headings, buttons, navigation, footer, and Capability Statement are untouched.
+WINDOWS / GITHUB INSTRUCTIONS
+1. Extract the V35 ZIP to a folder on your computer.
+2. In GitHub, open the website repository and select its current index.html (the one published to karatinllc.com).
+3. Choose "Download raw file" and save it in the extracted V35 folder as index.html.
+4. Double-click Apply_V35.bat. A PowerShell window will explain the corrections.
+5. The script creates index_V35.html. It DOES NOT overwrite the original.
+6. Verify it, then rename index_V35.html to index.html and upload that one HTML file to GitHub's published repository root, replacing the current index.html.
+7. Commit your change and wait for GitHub Pages to deploy. Reload https://karatinllc.com/?v=35.
 
-Once the Pages deployment succeeds, reload https://karatinllc.com/index.html?v=34 to bypass cached HTML.
+V35 FIXES ONLY
+- Removes the outdated "previous Karatin homepage" notice if V34 was not already applied.
+- Renames the Government Solutions card "SLED & Education" to "SLED".
+- Updates that card text to describe broader staffing and specialized workforce services.
+- Removes unnecessary repetition of SLED and education in another homepage list and metadata.
+
+UNCHANGED
+- Every hero image, headline, CTA and navigation button.
+- Page layout, responsive breakpoints, CSS, images, links and forms.
+- Government documents, Capability Statement, Capability Briefing, Introduction Letter.
+
+If you prefer that I send a ready-to-upload index.html instead of using a patch, upload your current GitHub index.html here. Then I can edit that exact version and create a direct replacement ZIP without risking earlier designs.
